@@ -186,9 +186,15 @@
     <families />
     <layout-folder>
         <layout>FaseDoLixo.xml</layout>
+        <layout>Tela Inicial.xml</layout>
+        <layout>Creditos.xml</layout>
+        <layout>Tutorial.xml</layout>
+        <layout>Layout 1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>EvtFaseDoLixo.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
     </event-folder>
     <global-instances />
     <sounds-folder />
