@@ -182,6 +182,142 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="tlbMarFundo" sid="729574993582530">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Default\background_terrain.png" />
+        </object-type>
+        <object-type name="tlbMarCima" sid="149060349038905">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Default\background_terrain_top.png" />
+        </object-type>
+        <object-type name="sptPeixeVer" sid="271376823722008">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="448770699462600" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Default\fish_red_outline.png">
+                        <collision-poly>
+                            <point x="0.33871" y="0.3" />
+                            <point x="0.5" y="0.08" />
+                            <point x="0.83871" y="0.08" />
+                            <point x="0.983871" y="0.5" />
+                            <point x="0.822581" y="0.9" />
+                            <point x="0.5" y="0.96" />
+                            <point x="0.274194" y="0.78" />
+                            <point x="0.016129" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tlbAreiaEstrela" sid="182716938026254">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\terrain_sand_d.png" />
+        </object-type>
+        <object-type name="tblAreia" sid="419476154730425">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\terrain_sand_a.png" />
+        </object-type>
+        <object-type name="tlbAreiaConcha" sid="587997744525861">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\terrain_sand_c.png" />
+        </object-type>
+        <object-type name="sptConcha" sid="751018944681117">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="447416582702010" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\terrain_sand_c.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptAlga1" sid="143932576220933">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="946326335711011" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\seaweed_green_a_outline.png">
+                        <collision-poly>
+                            <point x="0.21875" y="0.21875" />
+                            <point x="0.5" y="0.078125" />
+                            <point x="0.640625" y="0.359375" />
+                            <point x="0.796875" y="0.5" />
+                            <point x="0.8125" y="0.8125" />
+                            <point x="0.5" y="1" />
+                            <point x="0.203125" y="0.796875" />
+                            <point x="0.125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptAlga2" sid="408503221230919">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="771082112689086" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\seaweed_grass_a_outline.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.5" />
+                            <point x="0.5" y="0.453125" />
+                            <point x="0.703125" y="0.296875" />
+                            <point x="0.664063" y="0.5" />
+                            <point x="0.820313" y="0.820313" />
+                            <point x="0.5" y="1" />
+                            <point x="0.109375" y="0.890625" />
+                            <point x="0.289063" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptAlga3" sid="964375366945247">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="977658118180060" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\seaweed_pink_d_outline.png">
+                        <collision-poly>
+                            <point x="0.429688" y="0.429688" />
+                            <point x="0.5" y="0.5" />
+                            <point x="0.507813" y="0.5" />
+                            <point x="0.5" y="1" />
+                            <point x="0.28125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptPedra" sid="773103462404997">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="806763027353678" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\rock_a_outline.png">
+                        <collision-poly>
+                            <point x="0.546875" y="0.546875" />
+                            <point x="0.398438" y="0.5" />
+                            <point x="0.921875" y="0.921875" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0859375" y="0.914063" />
+                            <point x="0.351563" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptPedra2" sid="617641752300109">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="128627747388740" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\rock_b_outline.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.5" />
+                            <point x="0.5" y="0.492188" />
+                            <point x="0.710938" y="0.5" />
+                            <point x="0.929688" y="0.929688" />
+                            <point x="0.5" y="1" />
+                            <point x="0.125" y="0.875" />
+                            <point x="0.453125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -190,11 +326,13 @@
         <layout>Creditos.xml</layout>
         <layout>Tutorial.xml</layout>
         <layout>Layout 1.xml</layout>
+        <layout>oceano.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>EvtFaseDoLixo.xml</event-sheet>
         <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
     </event-folder>
     <global-instances />
     <sounds-folder />
