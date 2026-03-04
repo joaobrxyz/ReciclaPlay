@@ -11,6 +11,7 @@
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors />
@@ -91,7 +92,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="224186599027023" speed="5">
-                    <frame duration="1" hotspotX="0.504202" hotspotY="0.511111" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\nao_reciclavel.png">
+                    <frame duration="1" hotspotX="0.504202" hotspotY="0.511111" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\garbage collection pack\png\trash can\selective - front\7.png">
                         <collision-poly>
                             <point x="0.151261" y="0.0933333" />
                             <point x="0.504202" y="0.0266667" />
@@ -179,6 +180,25 @@
                             <point x="0.0826446" y="0.486726" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtCinza" sid="526248326388942">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sptCacamba" sid="485699499455826">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="734537378777634" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptHud" sid="615595956230563">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="714757149952331" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
