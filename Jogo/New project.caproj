@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
-    <name>New project</name>
-    <description></description>
+    <name>ReciclaPlay_Final</name>
+    <description>Versão Mesclada com Oceano e Fase do Lixo</description>
     <version>1.0.0.0</version>
     <author></author>
     <author-email></author-email>
@@ -11,8 +11,8 @@
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
-        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
     </used-plugins>
     <used-behaviors />
     <used-effects />
@@ -73,18 +73,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="100133440006008" speed="5">
-                    <frame duration="1" hotspotX="0.483333" hotspotY="0.504425" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\metal.png">
-                        <collision-poly>
-                            <point x="0.141667" y="0.0884956" />
-                            <point x="0.475" y="0.0265487" />
-                            <point x="0.816667" y="0.0884956" />
-                            <point x="0.908333" y="0.5" />
-                            <point x="0.858333" y="0.938053" />
-                            <point x="0.475" y="0.982301" />
-                            <point x="0.116667" y="0.929204" />
-                            <point x="0.0916667" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.483333" hotspotY="0.504425" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\metal.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -92,18 +81,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="224186599027023" speed="5">
-                    <frame duration="1" hotspotX="0.504202" hotspotY="0.511111" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\garbage collection pack\png\trash can\selective - front\7.png">
-                        <collision-poly>
-                            <point x="0.151261" y="0.0933333" />
-                            <point x="0.504202" y="0.0266667" />
-                            <point x="0.840336" y="0.102222" />
-                            <point x="0.915966" y="0.506667" />
-                            <point x="0.882353" y="0.937778" />
-                            <point x="0.504202" y="0.986667" />
-                            <point x="0.10084" y="0.951111" />
-                            <point x="0.0756303" y="0.506667" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.504202" hotspotY="0.511111" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\nao_reciclavel.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -111,18 +89,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="845892966007422" speed="5">
-                    <frame duration="1" hotspotX="0.487805" hotspotY="0.497817" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\organico.png">
-                        <collision-poly>
-                            <point x="0.154472" y="0.0873362" />
-                            <point x="0.487805" y="0.0305677" />
-                            <point x="0.804878" y="0.0960699" />
-                            <point x="0.926829" y="0.497817" />
-                            <point x="0.886179" y="0.943231" />
-                            <point x="0.487805" y="0.9869" />
-                            <point x="0.097561" y="0.938865" />
-                            <point x="0.0813008" y="0.497817" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.487805" hotspotY="0.497817" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\organico.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -130,18 +97,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="901220534059267" speed="5">
-                    <frame duration="1" hotspotX="0.495798" hotspotY="0.511111" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\papel.png">
-                        <collision-poly>
-                            <point x="0.151261" y="0.0977778" />
-                            <point x="0.487395" y="0.0266667" />
-                            <point x="0.840336" y="0.0933333" />
-                            <point x="0.915966" y="0.506667" />
-                            <point x="0.882353" y="0.946667" />
-                            <point x="0.487395" y="0.986667" />
-                            <point x="0.10084" y="0.946667" />
-                            <point x="0.0756303" y="0.506667" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.495798" hotspotY="0.511111" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\papel.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -149,18 +105,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="424534564091729" speed="5">
-                    <frame duration="1" hotspotX="0.487603" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\plastico.png">
-                        <collision-poly>
-                            <point x="0.14876" y="0.0929204" />
-                            <point x="0.487603" y="0.0309735" />
-                            <point x="0.809917" y="0.10177" />
-                            <point x="0.917355" y="0.5" />
-                            <point x="0.884298" y="0.938053" />
-                            <point x="0.487603" y="0.986726" />
-                            <point x="0.0909091" y="0.938053" />
-                            <point x="0.0743802" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.487603" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\plastico.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -168,39 +113,11 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="332816617415014" speed="5">
-                    <frame duration="1" hotspotX="0.512397" hotspotY="0.49115" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\vidro.png">
-                        <collision-poly>
-                            <point x="0.157025" y="0.0663717" />
-                            <point x="0.504132" y="0.0265487" />
-                            <point x="0.818182" y="0.0884956" />
-                            <point x="0.917355" y="0.486726" />
-                            <point x="0.867769" y="0.915929" />
-                            <point x="0.504132" y="0.982301" />
-                            <point x="0.0991736" y="0.942478" />
-                            <point x="0.0826446" y="0.486726" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.512397" hotspotY="0.49115" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\vidro.png" />
                 </animation>
             </animation-folder>
         </object-type>
-<<<<<<< HEAD
-        <object-type name="txtCinza" sid="526248326388942">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="sptCacamba" sid="485699499455826">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="734537378777634" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="sptHud" sid="615595956230563">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="714757149952331" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-=======
+
         <object-type name="tlbMarFundo" sid="729574993582530">
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Default\background_terrain.png" />
@@ -213,18 +130,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="448770699462600" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Default\fish_red_outline.png">
-                        <collision-poly>
-                            <point x="0.33871" y="0.3" />
-                            <point x="0.5" y="0.08" />
-                            <point x="0.83871" y="0.08" />
-                            <point x="0.983871" y="0.5" />
-                            <point x="0.822581" y="0.9" />
-                            <point x="0.5" y="0.96" />
-                            <point x="0.274194" y="0.78" />
-                            <point x="0.016129" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Default\fish_red_outline.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -252,18 +158,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="946326335711011" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\seaweed_green_a_outline.png">
-                        <collision-poly>
-                            <point x="0.21875" y="0.21875" />
-                            <point x="0.5" y="0.078125" />
-                            <point x="0.640625" y="0.359375" />
-                            <point x="0.796875" y="0.5" />
-                            <point x="0.8125" y="0.8125" />
-                            <point x="0.5" y="1" />
-                            <point x="0.203125" y="0.796875" />
-                            <point x="0.125" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\seaweed_green_a_outline.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -271,18 +166,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="771082112689086" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\seaweed_grass_a_outline.png">
-                        <collision-poly>
-                            <point x="0.5" y="0.5" />
-                            <point x="0.5" y="0.453125" />
-                            <point x="0.703125" y="0.296875" />
-                            <point x="0.664063" y="0.5" />
-                            <point x="0.820313" y="0.820313" />
-                            <point x="0.5" y="1" />
-                            <point x="0.109375" y="0.890625" />
-                            <point x="0.289063" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\seaweed_grass_a_outline.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -290,15 +174,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="977658118180060" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\seaweed_pink_d_outline.png">
-                        <collision-poly>
-                            <point x="0.429688" y="0.429688" />
-                            <point x="0.5" y="0.5" />
-                            <point x="0.507813" y="0.5" />
-                            <point x="0.5" y="1" />
-                            <point x="0.28125" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -306,16 +182,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="806763027353678" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\rock_a_outline.png">
-                        <collision-poly>
-                            <point x="0.546875" y="0.546875" />
-                            <point x="0.398438" y="0.5" />
-                            <point x="0.921875" y="0.921875" />
-                            <point x="0.5" y="1" />
-                            <point x="0.0859375" y="0.914063" />
-                            <point x="0.351563" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\rock_a_outline.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -323,48 +190,41 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="128627747388740" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\rock_b_outline.png">
-                        <collision-poly>
-                            <point x="0.5" y="0.5" />
-                            <point x="0.5" y="0.492188" />
-                            <point x="0.710938" y="0.5" />
-                            <point x="0.929688" y="0.929688" />
-                            <point x="0.5" y="1" />
-                            <point x="0.125" y="0.875" />
-                            <point x="0.453125" y="0.5" />
-                        </collision-poly>
-                    </frame>
->>>>>>> 1be8854070adf35a11d7bcdba2a1663cbafde772
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\rock_b_outline.png" />
                 </animation>
             </animation-folder>
         </object-type>
+
+        <object-type name="txtCinza" sid="526248326388942"><plugin id="Text" /></object-type>
+        <object-type name="sptCacamba" sid="485699499455826"><plugin id="Sprite" /><animation-folder><animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="734537378777634" speed="5"><frame duration="1" hotspotX="0.5" hotspotY="0.5" /></animation></animation-folder></object-type>
+        <object-type name="sptHud" sid="615595956230563"><plugin id="Sprite" /><animation-folder><animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="714757149952331" speed="5"><frame duration="1" hotspotX="0.5" hotspotY="0.5" /></animation></animation-folder></object-type>
     </object-folder>
+
     <families />
+
     <layout-folder>
-        <layout>FaseDoLixo.xml</layout>
         <layout>Tela Inicial.xml</layout>
-        <layout>Creditos.xml</layout>
         <layout>Tutorial.xml</layout>
-        <layout>Layout 1.xml</layout>
+        <layout>FaseDoLixo.xml</layout>
         <layout>oceano.xml</layout>
+        <layout>Creditos.xml</layout>
+        <layout>Layout 1.xml</layout>
     </layout-folder>
+
     <event-folder>
         <event-sheet>EvtFaseDoLixo.xml</event-sheet>
         <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>Event sheet 2.xml</event-sheet>
         <event-sheet>Event sheet 3.xml</event-sheet>
     </event-folder>
+
     <global-instances />
     <sounds-folder />
     <music-folder />
     <files-folder>
         <file-folder name="Icons">
-            <file name="icon-16.png" />
-            <file name="icon-32.png" />
-            <file name="icon-114.png" />
-            <file name="icon-128.png" />
-            <file name="icon-256.png" />
-            <file name="loading-logo.png" />
+            <file name="icon-16.png" /><file name="icon-32.png" /><file name="icon-114.png" />
+            <file name="icon-128.png" /><file name="icon-256.png" /><file name="loading-logo.png" />
         </file-folder>
     </files-folder>
 </c2project>

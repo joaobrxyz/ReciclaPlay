@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Ignora arquivos de configuração pessoal do editor
+*.uistate.xml
+
+# Ignora backups automáticos que o C2 cria
+*.backupxml
+*.capx.backup*
+*.capx.autosave*
+
+# Opcional: Ignora a pasta onde você exporta o jogo (HTML5, etc)
+/export/
