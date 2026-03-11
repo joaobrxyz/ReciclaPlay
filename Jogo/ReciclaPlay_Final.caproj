@@ -10,11 +10,14 @@
     <unique-id>2qo1bb0z6kjf1</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
-    <used-behaviors />
+    <used-behaviors>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -127,6 +130,11 @@
         </object-type>
         <object-type name="sptPeixeVer" sid="271376823722008">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="523182283410440">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="448770699462600" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Default\fish_red_outline.png" />
@@ -212,40 +220,62 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="tldFundoCreditos" sid="415157824464825">
+        <object-type name="tlbTelaInicial" sid="786038474333935">
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\fundo-jogo.png" />
         </object-type>
-        <object-type name="txtTituloCreditos" sid="702502395823946">
-            <plugin id="Text" />
+        <object-type name="btPlay" sid="320117864817298">
+            <plugin id="Button" />
         </object-type>
-        <object-type name="txtDev" sid="597832940207311">
-            <plugin id="Text" />
+        <object-type name="BtTutorial" sid="593219578347953">
+            <plugin id="Button" />
         </object-type>
-        <object-type name="sptHudFaseDoLixo" sid="443503992256284">
+        <object-type name="sptPeixeAma" sid="920994115274988">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="894872885887642">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="139789487873562" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="819239495023101" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\fish_orange_outline.png">
+                        <collision-poly>
+                            <point x="0.983051" y="0.5" />
+                            <point x="0.5" y="0.970588" />
+                            <point x="0.271186" y="0.897059" />
+                            <point x="0.00847459" y="0.5" />
+                            <point x="0.228814" y="0.0294118" />
+                            <point x="0.5" y="0.117647" />
+                            <point x="0.627119" y="0.279412" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="sptHudFaseDoLixo02" sid="497093382685923">
+        <object-type name="sptBarco" sid="159007007249972">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="573861362101676">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="920360724012123" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="537920417469300" speed="5">
+                    <frame duration="1" hotspotX="0.429054" hotspotY="0.55914" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\barco.png">
+                        <collision-poly>
+                            <point x="0.00337838" y="0.66129" />
+                            <point x="0.429054" y="0.564516" />
+                            <point x="0.935811" y="0.532258" />
+                            <point x="0.989865" y="0.553763" />
+                            <point x="0.976351" y="0.645161" />
+                            <point x="0.429054" y="0.967742" />
+                            <point x="0.0641892" y="0.354839" />
+                            <point x="0.0641892" y="0.553763" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="txtPontos" sid="591837053162255">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="txtTituloHud" sid="848152150208978">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="txtTempo" sid="138241892278437">
-            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />
