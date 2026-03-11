@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>ReciclaPlay_Final</name>
+    <description>Versão Mesclada com Oceano e Fase do Lixo</description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2qo1bb0z6kjf1</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1080</width>
+        <height>500</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="tldFundo" sid="899604132414404">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\background.png" />
+        </object-type>
+        <object-type name="tldChao" sid="866549605804737">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\chao.png" />
+        </object-type>
+        <object-type name="sptChao" sid="336415737619551">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="123491180471478" speed="5">
+                    <frame duration="1" hotspotX="0.50108" hotspotY="0.450331" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\chao.png">
+                        <collision-poly>
+                            <point x="0.103672" y="0.172185" />
+                            <point x="0.49892" y="0.013245" />
+                            <point x="0.896328" y="0.172185" />
+                            <point x="0.99352" y="0.443709" />
+                            <point x="0.920086" y="0.794702" />
+                            <point x="0.49892" y="0.986755" />
+                            <point x="0.0799136" y="0.794702" />
+                            <point x="0.00647946" y="0.443709" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptMetal" sid="492734366973043">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="100133440006008" speed="5">
+                    <frame duration="1" hotspotX="0.483333" hotspotY="0.504425" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\metal.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptNaoReciclavel" sid="614913375997816">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="224186599027023" speed="5">
+                    <frame duration="1" hotspotX="0.504202" hotspotY="0.511111" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\nao_reciclavel.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptOrganico" sid="736713368238570">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="845892966007422" speed="5">
+                    <frame duration="1" hotspotX="0.487805" hotspotY="0.497817" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\organico.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptPapel" sid="703616881812144">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="901220534059267" speed="5">
+                    <frame duration="1" hotspotX="0.495798" hotspotY="0.511111" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\papel.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptPlastico" sid="131412211921180">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="424534564091729" speed="5">
+                    <frame duration="1" hotspotX="0.487603" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\plastico.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptVidro" sid="881634696300565">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="332816617415014" speed="5">
+                    <frame duration="1" hotspotX="0.512397" hotspotY="0.49115" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\vidro.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tlbMarFundo" sid="729574993582530">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Default\background_terrain.png" />
+        </object-type>
+        <object-type name="tlbMarCima" sid="149060349038905">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Default\background_terrain_top.png" />
+        </object-type>
+        <object-type name="sptPeixeVer" sid="271376823722008">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="448770699462600" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Default\fish_red_outline.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tlbAreiaEstrela" sid="182716938026254">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\terrain_sand_d.png" />
+        </object-type>
+        <object-type name="tblAreia" sid="419476154730425">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\terrain_sand_a.png" />
+        </object-type>
+        <object-type name="tlbAreiaConcha" sid="587997744525861">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\terrain_sand_c.png" />
+        </object-type>
+        <object-type name="sptConcha" sid="751018944681117">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="447416582702010" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\terrain_sand_c.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptAlga1" sid="143932576220933">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="946326335711011" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\seaweed_green_a_outline.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptAlga2" sid="408503221230919">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="771082112689086" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\seaweed_grass_a_outline.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptAlga3" sid="964375366945247">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="977658118180060" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptPedra" sid="773103462404997">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="806763027353678" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\rock_a_outline.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptPedra2" sid="617641752300109">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="128627747388740" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\rock_b_outline.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtCinza" sid="526248326388942">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sptCacamba" sid="485699499455826">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="734537378777634" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptHud" sid="615595956230563">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="714757149952331" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tldFundoCreditos" sid="415157824464825">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\fundo-jogo.png" />
+        </object-type>
+        <object-type name="txtTituloCreditos" sid="702502395823946">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="txtDev" sid="597832940207311">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sptHudFaseDoLixo" sid="443503992256284">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="139789487873562" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptHudFaseDoLixo02" sid="497093382685923">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="920360724012123" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtPontos" sid="591837053162255">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="txtTituloHud" sid="848152150208978">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="txtTempo" sid="138241892278437">
+            <plugin id="Text" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Tela Inicial.xml</layout>
+        <layout>Tutorial.xml</layout>
+        <layout>FaseDoLixo.xml</layout>
+        <layout>oceano.xml</layout>
+        <layout>Creditos.xml</layout>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>EvtFaseDoLixo.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
+    </event-folder>
+    <global-instances />
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
