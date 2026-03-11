@@ -4,8 +4,8 @@
     <sid>747112952213552</sid>
     <event-sheet></event-sheet>
     <size>
-        <width>1708</width>
-        <height>960</height>
+        <width>1080</width>
+        <height>500</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="816295429813047">
+        <layer name="Fundo" sid="816295429813047">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -28,7 +28,95 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="tlbTelaInicial" uid="39">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>0.768798828</x>
+                        <y>0</y>
+                        <z>0</z>
+                        <width>1079</width>
+                        <height>499</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="Elemento" sid="487861081813575">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="btPlay" uid="40">
+                    <properties>
+                        <type>Button</type>
+                        <text>Jogar</text>
+                        <tooltip></tooltip>
+                        <initial-visibility>Visible</initial-visibility>
+                        <enabled>Yes</enabled>
+                        <auto-font-size>No</auto-font-size>
+                        <id-optional></id-optional>
+                        <checked>No</checked>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>428</x>
+                        <y>252</y>
+                        <z>0</z>
+                        <width>185.928405762</width>
+                        <height>43.323123932</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+                <instance type="BtTutorial" uid="41">
+                    <properties>
+                        <type>Button</type>
+                        <text>Creditos</text>
+                        <tooltip></tooltip>
+                        <initial-visibility>Visible</initial-visibility>
+                        <enabled>Yes</enabled>
+                        <auto-font-size>Yes</auto-font-size>
+                        <id-optional></id-optional>
+                        <checked>No</checked>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>445</x>
+                        <y>334</y>
+                        <z>0</z>
+                        <width>153.831069946</width>
+                        <height>31.671104431</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
     </layers>
