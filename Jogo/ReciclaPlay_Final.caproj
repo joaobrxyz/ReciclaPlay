@@ -220,6 +220,41 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="tldFundoCreditos" sid="415157824464825">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\fundo-jogo.png" />
+        </object-type>
+        <object-type name="txtTituloCreditos" sid="702502395823946">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="txtDev" sid="597832940207311">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sptHudFaseDoLixo" sid="443503992256284">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="139789487873562" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptHudFaseDoLixo02" sid="497093382685923">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="920360724012123" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtPontos" sid="591837053162255">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="txtTituloHud" sid="848152150208978">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="txtTempo" sid="138241892278437">
+            <plugin id="Text" />
+        </object-type>
         <object-type name="tlbTelaInicial" sid="786038474333935">
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\fundo-jogo.png" />
