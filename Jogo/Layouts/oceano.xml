@@ -688,7 +688,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sptPeixeAma" uid="43">
+                <instance type="sptPeixeAma" uid="51">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -725,7 +725,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sptPeixeAma" uid="44">
+                <instance type="sptPeixeAma" uid="52">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -762,7 +762,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="sptBarco" uid="45">
+                <instance type="sptBarco" uid="53">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

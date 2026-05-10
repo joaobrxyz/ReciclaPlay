@@ -2,5 +2,54 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EvtFaseDoLixo</name>
-    <events />
+    <events>
+        <variable constant="0" name="VelocidadeQuedaF02" sid="455564261847691" static="0" type="number">200</variable>
+        <variable constant="0" name="varPontosF02" sid="587511546580428" static="0" type="number">0</variable>
+        <event-block sid="281799049445045">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="378867320776147" type="System">
+                    <param id="0" name="Interval (seconds)">1.7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="605703692911377" type="System">
+                    <param id="0" name="Object to create">sptLixo</param>
+                    <param id="1" name="Layer">2</param>
+                    <param id="2" name="X">random(360,660)</param>
+                    <param id="3" name="Y">-15</param>
+                </action>
+                <action id="5" name="Set frame" sid="528246402845930" type="sptLixo">
+                    <param id="0" name="Frame number">random(0, 12)</param>
+                </action>
+                <action behavior="Bullet" id="0" name="Set speed" sid="944844884965116" type="sptLixo">
+                    <param id="0" name="Speed">VelocidadeQuedaF02</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="431529670409940">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="203203301494875" type="sptLixo">
+                    <param id="0" name="Object">sptChaoF02</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="0" name="Set speed" sid="393274839483009" type="sptLixo">
+                    <param id="0" name="Speed">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="931868843536761">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="196258093886078" type="sptLixo" />
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="0" name="Set speed" sid="919575824389035" type="sptLixo">
+                    <param id="0" name="Speed">VelocidadeQuedaF02</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="807640755955502" type="sptLixo">
+                    <param id="0" name="Angle">90</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

@@ -16,7 +16,10 @@
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -76,7 +79,18 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="100133440006008" speed="5">
-                    <frame duration="1" hotspotX="0.483333" hotspotY="0.504425" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\metal.png" />
+                    <frame duration="1" hotspotX="0.372781" hotspotY="0.571429" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Lixeiras\metal.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.535764" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.550442" />
+                            <point x="1" y="1" />
+                            <point x="0.535766" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.550442" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -84,7 +98,18 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="224186599027023" speed="5">
-                    <frame duration="1" hotspotX="0.504202" hotspotY="0.511111" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\nao_reciclavel.png" />
+                    <frame duration="1" hotspotX="0.52071" hotspotY="0.540373" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Lixeiras\nao_reciclavel.png">
+                        <collision-poly>
+                            <point x="0" y="0.0248447" />
+                            <point x="0.508876" y="0.00621118" />
+                            <point x="0.982249" y="0.0465839" />
+                            <point x="0.91716" y="0.515528" />
+                            <point x="0.857988" y="0.993789" />
+                            <point x="0.508876" y="0.996894" />
+                            <point x="0.0710059" y="0.987578" />
+                            <point x="0.0591716" y="0.515528" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -92,7 +117,18 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="845892966007422" speed="5">
-                    <frame duration="1" hotspotX="0.487805" hotspotY="0.497817" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\organico.png" />
+                    <frame duration="1" hotspotX="0.473373" hotspotY="0.509317" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Lixeiras\organico.png">
+                        <collision-poly>
+                            <point x="0" y="0.0341615" />
+                            <point x="0.508876" y="0.00621118" />
+                            <point x="1" y="0.0434783" />
+                            <point x="0.91716" y="0.515528" />
+                            <point x="0.846154" y="0.984472" />
+                            <point x="0.508876" y="0.996894" />
+                            <point x="0.130177" y="0.987578" />
+                            <point x="0.0591716" y="0.515528" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -100,7 +136,18 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="901220534059267" speed="5">
-                    <frame duration="1" hotspotX="0.495798" hotspotY="0.511111" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\papel.png" />
+                    <frame duration="1" hotspotX="0.494118" hotspotY="0.540373" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Lixeiras\papel.png">
+                        <collision-poly>
+                            <point x="0.0117647" y="0.0124224" />
+                            <point x="0.505882" y="0.00310554" />
+                            <point x="1" y="0.015528" />
+                            <point x="0.917647" y="0.515528" />
+                            <point x="0.770588" y="0.984472" />
+                            <point x="0.505882" y="0.996894" />
+                            <point x="0.235294" y="0.987578" />
+                            <point x="0.0588235" y="0.515528" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -108,7 +155,18 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="424534564091729" speed="5">
-                    <frame duration="1" hotspotX="0.487603" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\plastico.png" />
+                    <frame duration="1" hotspotX="0.470588" hotspotY="0.515528" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Lixeiras\plastico.png">
+                        <collision-poly>
+                            <point x="0" y="0.0248447" />
+                            <point x="0.505882" y="0.00310554" />
+                            <point x="1" y="0.0248447" />
+                            <point x="0.917647" y="0.515528" />
+                            <point x="0.864706" y="0.984472" />
+                            <point x="0.505882" y="0.996894" />
+                            <point x="0.117647" y="0.975155" />
+                            <point x="0.0588235" y="0.515528" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -116,7 +174,18 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="332816617415014" speed="5">
-                    <frame duration="1" hotspotX="0.512397" hotspotY="0.49115" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Lixeiras\vidro.png" />
+                    <frame duration="1" hotspotX="0.541176" hotspotY="0.496894" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Lixeiras\vidro.png">
+                        <collision-poly>
+                            <point x="0" y="0.0186335" />
+                            <point x="0.505882" y="0.00310554" />
+                            <point x="1" y="0.0403727" />
+                            <point x="0.917647" y="0.515528" />
+                            <point x="0.852941" y="0.984472" />
+                            <point x="0.505882" y="0.996894" />
+                            <point x="0.0705882" y="0.987578" />
+                            <point x="0.0588235" y="0.515528" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -309,6 +378,194 @@
                             <point x="0.0641892" y="0.553763" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptLixo" sid="520942075157254">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="585460308868680">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="330855376485824">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="438869895310372">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="12" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="527805136234839" speed="0">
+                    <frame duration="1" hotspotX="0.636364" hotspotY="0.556098" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Metais\latinha_cocacola.png">
+                        <collision-poly>
+                            <point x="0.174641" y="0.980488" />
+                            <point x="0.0394738" y="0.890244" />
+                            <point x="0" y="0.497561" />
+                            <point x="0.0436602" y="0.113415" />
+                            <point x="0.179426" y="0.00731707" />
+                            <point x="0.636364" y="0.00487804" />
+                            <point x="0.983254" y="0.0146341" />
+                            <point x="0.995215" y="0.556098" />
+                            <point x="0.997608" y="0.990244" />
+                            <point x="0.636364" y="0.995122" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="1.2823" hotspotY="1.0439" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Metais\latinha_pepsi.png">
+                        <collision-poly>
+                            <point x="0.0728234" y="1" />
+                            <point x="0" y="0.696205" />
+                            <point x="0.0526316" y="0.0292683" />
+                            <point x="0.449898" y="0" />
+                            <point x="0.872553" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.696205" />
+                            <point x="1" y="1" />
+                            <point x="0.872553" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="3.33761" hotspotY="1.13004" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Papéis\caixa_pizza.png">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="0" y="0.731966" />
+                            <point x="0" y="0" />
+                            <point x="0.763787" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.731966" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="9.21901" hotspotY="1.40113" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Papéis\jornal.png">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="0" y="0.824199" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.824199" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="14.9497" hotspotY="3.75714" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Plásticos\garrafa.png">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="26.0049" hotspotY="9.22513" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Plásticos\milkshake.png">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="74.8715" hotspotY="52.4302" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Vidros\garrafa01.png">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="216.956" hotspotY="309.651" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Vidros\garrafa02.png">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="479.768" hotspotY="623.646" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Orgânicos\batata.png">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="1314.97" hotspotY="1182.16" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Orgânicos\maça.png">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="6798.3" hotspotY="1341.98" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Não recicláveis\curativo.png">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="20593.1" hotspotY="1935.2" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Não recicláveis\esponja.png">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptChaoF02" sid="779963248363970">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="359333243258468">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="490140722498496" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
