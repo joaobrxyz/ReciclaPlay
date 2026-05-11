@@ -3,8 +3,53 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EvtFaseDoLixo</name>
     <events>
+        <variable constant="0" name="varTempo" sid="927548205907944" static="0" type="number">0</variable>
         <variable constant="0" name="VelocidadeQuedaF02" sid="455564261847691" static="0" type="number">200</variable>
         <variable constant="0" name="varPontosF02" sid="587511546580428" static="0" type="number">0</variable>
+        <event-block sid="813677063066164">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="339301697094142" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="844951367161718" type="txtTempo">
+                    <param id="0" name="Text">varTempo</param>
+                </action>
+                <action id="0" name="Set text" sid="166002770514328" type="txtPontos">
+                    <param id="0" name="Text">varPontosF02</param>
+                </action>
+                <action id="0" name="Set text" sid="560531246243563" type="txtMetal">
+                    <param id="0" name="Text">sptMetal.contagem &amp; &quot; / 2&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="449521066917410" type="txtPapel">
+                    <param id="0" name="Text">sptPapel.contagem &amp; &quot; / 2&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="317421561885000" type="txtPlastico">
+                    <param id="0" name="Text">sptPlastico.contagem &amp; &quot; / 2&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="259834034245184" type="txtVidro">
+                    <param id="0" name="Text">sptVidro.contagem &amp; &quot; / 2&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="942211942833822" type="txtOrganico">
+                    <param id="0" name="Text">sptOrganico.contagem &amp; &quot; / 2&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="558703427066000" type="txtNaoReciclavel">
+                    <param id="0" name="Text">sptNaoReciclavel.contagem &amp; &quot; / 2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="680895361170742">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="929950701019757" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="203492686498711" type="System">
+                    <param id="0" name="Variable">varTempo</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="281799049445045">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="378867320776147" type="System">
@@ -21,35 +66,351 @@
                 <action id="5" name="Set frame" sid="528246402845930" type="sptLixo">
                     <param id="0" name="Frame number">random(0, 12)</param>
                 </action>
-                <action behavior="Bullet" id="0" name="Set speed" sid="944844884965116" type="sptLixo">
-                    <param id="0" name="Speed">VelocidadeQuedaF02</param>
+            </actions>
+        </event-block>
+        <event-block sid="341370874154516">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="496833074264929" type="sptLixo" />
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="27" name="Set enabled" sid="940089603001694" type="sptLixo">
+                    <param id="0" name="Mode">0</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="431529670409940">
+        <event-block sid="178498367128544">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="203203301494875" type="sptLixo">
-                    <param id="0" name="Object">sptChaoF02</param>
-                </condition>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="380789954482180" type="sptLixo" />
             </conditions>
             <actions>
-                <action behavior="Bullet" id="0" name="Set speed" sid="393274839483009" type="sptLixo">
-                    <param id="0" name="Speed">0</param>
+                <action behavior="Physics" id="27" name="Set enabled" sid="821098615555781" type="sptLixo">
+                    <param id="0" name="Mode">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="931868843536761">
+        <comment>Metal</comment>
+        <event-block sid="548876023023923">
             <conditions>
-                <condition behavior="DragDrop" id="2" name="On drop" sid="196258093886078" type="sptLixo" />
+                <condition behavior="DragDrop" id="2" name="On drop" sid="679042718769761" type="sptLixo" />
             </conditions>
-            <actions>
-                <action behavior="Bullet" id="0" name="Set speed" sid="919575824389035" type="sptLixo">
-                    <param id="0" name="Speed">VelocidadeQuedaF02</param>
-                </action>
-                <action behavior="Bullet" id="3" name="Set angle of motion" sid="807640755955502" type="sptLixo">
-                    <param id="0" name="Angle">90</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="596143490652721">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="767180645629675" type="sptLixo">
+                            <param id="0" name="Object">sptMetal</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block any="1" sid="764495900646332">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="833658446569164" type="sptLixo">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">0</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="285233280293361" type="sptLixo">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="699196418141629" type="System">
+                                    <param id="0" name="Variable">varPontosF02</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                                <action id="-11" name="Add to" sid="474087820306880" type="sptMetal">
+                                    <param id="0" name="Instance variable">contagem</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="129275499799375" type="sptLixo" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="530261465551664">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="468438826613194" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="502421883507188" type="System">
+                                    <param id="0" name="Variable">varPontosF02</param>
+                                    <param id="1" name="Value">50</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="627993426916706" type="sptLixo" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Papel</comment>
+        <event-block sid="260657881944350">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="746155992743454" type="sptLixo" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="390161397786886">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="259727715059715" type="sptLixo">
+                            <param id="0" name="Object">sptPapel</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block any="1" sid="971517841626591">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="881101648580888" type="sptLixo">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">2</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="713014604385292" type="sptLixo">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="638327576199035" type="System">
+                                    <param id="0" name="Variable">varPontosF02</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                                <action id="-11" name="Add to" sid="927454592553365" type="sptPapel">
+                                    <param id="0" name="Instance variable">contagem</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="921437686921784" type="sptLixo" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="911375753387592">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="917568801512326" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="595143395538627" type="System">
+                                    <param id="0" name="Variable">varPontosF02</param>
+                                    <param id="1" name="Value">50</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="350260000855625" type="sptLixo" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Plástico</comment>
+        <event-block sid="684049600253533">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="953544767012116" type="sptLixo" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="155251551302878">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="771226407501859" type="sptLixo">
+                            <param id="0" name="Object">sptPlastico</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block any="1" sid="894260490233955">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="409176471148865" type="sptLixo">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">4</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="115866318748320" type="sptLixo">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="482506194131572" type="System">
+                                    <param id="0" name="Variable">varPontosF02</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                                <action id="-11" name="Add to" sid="823527341041033" type="sptPlastico">
+                                    <param id="0" name="Instance variable">contagem</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="519289232039258" type="sptLixo" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="730555370704303">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="708158494583552" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="719416682964979" type="System">
+                                    <param id="0" name="Variable">varPontosF02</param>
+                                    <param id="1" name="Value">50</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="284375558861143" type="sptLixo" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Vidro</comment>
+        <event-block sid="820873673127955">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="835911680928562" type="sptLixo" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="715158049213280">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="548233763492162" type="sptLixo">
+                            <param id="0" name="Object">sptVidro</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block any="1" sid="671064600016716">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="829960462908673" type="sptLixo">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">6</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="941586248012603" type="sptLixo">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="950352137249854" type="System">
+                                    <param id="0" name="Variable">varPontosF02</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                                <action id="-11" name="Add to" sid="492873787184651" type="sptVidro">
+                                    <param id="0" name="Instance variable">contagem</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="418026220339297" type="sptLixo" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="293419340831307">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="720094812174231" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="944781883773210" type="System">
+                                    <param id="0" name="Variable">varPontosF02</param>
+                                    <param id="1" name="Value">50</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="686783881743001" type="sptLixo" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Orgânico</comment>
+        <event-block sid="175673072062110">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="309306161228931" type="sptLixo" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="597190445984563">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="773380492693865" type="sptLixo">
+                            <param id="0" name="Object">sptOrganico</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block any="1" sid="182045318278007">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="981288720426516" type="sptLixo">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">8</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="244704797603992" type="sptLixo">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">9</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="993595867760867" type="System">
+                                    <param id="0" name="Variable">varPontosF02</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                                <action id="-11" name="Add to" sid="426785015760166" type="sptOrganico">
+                                    <param id="0" name="Instance variable">contagem</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="735976821915312" type="sptLixo" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="586206611150419">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="553975589002827" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="924349400985492" type="System">
+                                    <param id="0" name="Variable">varPontosF02</param>
+                                    <param id="1" name="Value">50</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="829569704712767" type="sptLixo" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Não reciclável</comment>
+        <event-block sid="116239170649402">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="658967934088344" type="sptLixo" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="553118420795397">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="578224040896722" type="sptLixo">
+                            <param id="0" name="Object">sptNaoReciclavel</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block any="1" sid="944864893818156">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="803276996805442" type="sptLixo">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">10</param>
+                                </condition>
+                                <condition id="3" name="Compare frame" sid="862120914018108" type="sptLixo">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">11</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Add to" sid="965504032882049" type="System">
+                                    <param id="0" name="Variable">varPontosF02</param>
+                                    <param id="1" name="Value">100</param>
+                                </action>
+                                <action id="-11" name="Add to" sid="291700728209808" type="sptNaoReciclavel">
+                                    <param id="0" name="Instance variable">contagem</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="893577316546831" type="sptLixo" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="535445684971297">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="561812165638348" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Subtract from" sid="339831706488454" type="System">
+                                    <param id="0" name="Variable">varPontosF02</param>
+                                    <param id="1" name="Value">50</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="897962858640385" type="sptLixo" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
