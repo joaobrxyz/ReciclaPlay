@@ -72,21 +72,13 @@
             <conditions>
                 <condition behavior="DragDrop" id="1" name="On drag start" sid="496833074264929" type="sptLixo" />
             </conditions>
-            <actions>
-                <action behavior="Physics" id="27" name="Set enabled" sid="940089603001694" type="sptLixo">
-                    <param id="0" name="Mode">0</param>
-                </action>
-            </actions>
+            <actions />
         </event-block>
         <event-block sid="178498367128544">
             <conditions>
                 <condition behavior="DragDrop" id="2" name="On drop" sid="380789954482180" type="sptLixo" />
             </conditions>
-            <actions>
-                <action behavior="Physics" id="27" name="Set enabled" sid="821098615555781" type="sptLixo">
-                    <param id="0" name="Mode">1</param>
-                </action>
-            </actions>
+            <actions />
         </event-block>
         <comment>Metal</comment>
         <event-block sid="548876023023923">

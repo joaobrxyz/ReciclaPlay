@@ -11,14 +11,16 @@
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
-        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
@@ -248,8 +250,8 @@
         <object-type name="sptPeixeVer" sid="271376823722008">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Sine" sid="523182283410440">
-                    <behavior id="Sin" />
+                <behavior-type name="Bullet" sid="268418294817998">
+                    <behavior id="Bullet" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -382,21 +384,21 @@
         <object-type name="sptPeixeAma" sid="920994115274988">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Sine" sid="894872885887642">
-                    <behavior id="Sin" />
+                <behavior-type name="Bullet" sid="543816501200092">
+                    <behavior id="Bullet" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="819239495023101" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\fish_orange_outline.png">
                         <collision-poly>
-                            <point x="0.983051" y="0.5" />
-                            <point x="0.5" y="0.970588" />
-                            <point x="0.271186" y="0.897059" />
-                            <point x="0.00847459" y="0.5" />
-                            <point x="0.228814" y="0.0294118" />
-                            <point x="0.5" y="0.117647" />
-                            <point x="0.627119" y="0.279412" />
+                            <point x="0.016949" y="0.5" />
+                            <point x="0.5" y="0.029412" />
+                            <point x="0.728814" y="0.102941" />
+                            <point x="0.991525" y="0.5" />
+                            <point x="0.771186" y="0.970588" />
+                            <point x="0.5" y="0.882353" />
+                            <point x="0.372881" y="0.720588" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -405,8 +407,8 @@
         <object-type name="sptBarco" sid="159007007249972">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Sine" sid="573861362101676">
-                    <behavior id="Sin" />
+                <behavior-type name="Platform" sid="868627288497641">
+                    <behavior id="Platform" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -432,7 +434,7 @@
                 <behavior-type name="DragDrop" sid="585460308868680">
                     <behavior id="DragnDrop" />
                 </behavior-type>
-                <behavior-type name="Physics" sid="380551093561452">
+                <behavior-type name="Physics" sid="157645527293982">
                     <behavior id="Physics" />
                 </behavior-type>
             </behaviors>
@@ -497,6 +499,60 @@
         <object-type name="txtNaoReciclavel" sid="506802818332766">
             <plugin id="Text" />
         </object-type>
+        <object-type name="sptMar" sid="156492415225386">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="889298545021790">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="972319118086757" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\aikaf\Documents\GitHub\pasta 2025\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Default\background_terrain.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="599679584296352">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="sptLixo2" sid="892331700779790">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="12" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="409586260190333" speed="0">
+                    <frame duration="1" hotspotX="0.636364" hotspotY="0.556098" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Metais\latinha_cocacola.png" />
+                    <frame duration="1" hotspotX="1.2823" hotspotY="1.0439" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Metais\latinha_pepsi.png" />
+                    <frame duration="1" hotspotX="3.33761" hotspotY="1.13004" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Papéis\caixa_pizza.png" />
+                    <frame duration="1" hotspotX="9.21901" hotspotY="1.40113" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Papéis\jornal.png" />
+                    <frame duration="1" hotspotX="14.9497" hotspotY="3.75714" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Plásticos\garrafa.png" />
+                    <frame duration="1" hotspotX="26.0049" hotspotY="9.22513" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Plásticos\milkshake.png" />
+                    <frame duration="1" hotspotX="74.8715" hotspotY="52.4302" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Vidros\garrafa01.png" />
+                    <frame duration="1" hotspotX="216.956" hotspotY="309.651" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Vidros\garrafa02.png" />
+                    <frame duration="1" hotspotX="479.768" hotspotY="623.646" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Orgânicos\batata.png" />
+                    <frame duration="1" hotspotX="1314.97" hotspotY="1182.16" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Orgânicos\maça.png" />
+                    <frame duration="1" hotspotX="6798.3" hotspotY="1341.98" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Não recicláveis\curativo.png" />
+                    <frame duration="1" hotspotX="20593.1" hotspotY="1935.2" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Não recicláveis\esponja.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptLinha" sid="316987077311238">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="388461234105228" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptAnzol" sid="549434586891411">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Estado" sid="648829633046482" type="string" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="392817924928605" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -511,9 +567,11 @@
         <event-sheet>EvtFaseDoLixo.xml</event-sheet>
         <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>Event sheet 2.xml</event-sheet>
-        <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>FaseOceano.xml</event-sheet>
     </event-folder>
-    <global-instances />
+    <global-instances>
+        <global-instance type="Mouse" uid="62" />
+    </global-instances>
     <sounds-folder />
     <music-folder />
     <files-folder>

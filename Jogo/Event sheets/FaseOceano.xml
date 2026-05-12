@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>FaseOceano</name>
+    <events>
+        <event-block sid="809022232270036">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="895397628330572" type="System" />
+                <condition id="-15" name="Pick nearest/furthest" sid="432160698520268" type="sptLixo2">
+                    <param id="0" name="Which">0</param>
+                    <param id="1" name="X">sptPeixeAma.X</param>
+                    <param id="2" name="Y">sptPeixeAma.Y</param>
+                </condition>
+                <condition id="-15" name="Pick nearest/furthest" sid="174316930418304" type="sptPeixeVer">
+                    <param id="0" name="Which">0</param>
+                    <param id="1" name="X">sptPeixeVer.X</param>
+                    <param id="2" name="Y">sptPeixeVer.Y</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-22" name="Set angle toward position" sid="697425452714129" type="sptPeixeAma">
+                    <param id="0" name="X">sptLixo2.X</param>
+                    <param id="1" name="Y">sptLixo2.Y</param>
+                </action>
+                <action id="-22" name="Set angle toward position" sid="334123073873532" type="sptPeixeVer">
+                    <param id="0" name="X">sptLixo2.X</param>
+                    <param id="1" name="Y">sptLixo2.Y</param>
+                </action>
+                <action id="-1" name="Set X" sid="951950522914388" type="sptAnzol">
+                    <param id="0" name="X">sptBarco.X</param>
+                </action>
+                <action id="-3" name="Set position" sid="805491787266010" type="sptLinha">
+                    <param id="0" name="X">sptBarco.X</param>
+                    <param id="1" name="Y">sptBarco.Y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="139247321227121">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="550266271432885" type="sptPeixeAma">
+                    <param id="0" name="Object">sptLixo2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="311217853269690" type="sptPeixeAma" />
+            </actions>
+        </event-block>
+        <event-block sid="683817398749355">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="126063313466359" type="sptPeixeVer">
+                    <param id="0" name="Object">sptLixo2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="189007205983150" type="sptPeixeVer" />
+            </actions>
+        </event-block>
+        <comment>adicionar a tela de game over em &quot;action&quot;</comment>
+        <event-block sid="649276688482713">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="313465578982754" type="System">
+                    <param id="0" name="First value">sptPeixeAma.count</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">0</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="233828225729432" type="System">
+                    <param id="0" name="First value">sptPeixeVer.count</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">0</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <comment>Tela de vitória adicionar</comment>
+        <event-block sid="221773547604928">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="637645821295483" type="System">
+                    <param id="0" name="First value">sptLixo.Count</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">0</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="338644712835429" type="System">
+                    <param id="0" name="First value">sptPeixeAma.Count</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Second value">0</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="884874609172093" type="System">
+                    <param id="0" name="First value">sptPeixeVer.Count</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Second value">0</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="931150976694319">
+            <conditions>
+                <condition id="0" name="On click" sid="605110028317956" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="899683262116148" type="sptAnzol">
+                    <param id="0" name="Instance variable">Estado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Parado&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="144064428180547" type="sptAnzol">
+                    <param id="0" name="Instance variable">Estado</param>
+                    <param id="1" name="Value">&quot;Descendo&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="593024855957135">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="854794141695606" type="sptAnzol">
+                    <param id="0" name="Instance variable">Estado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Descendo&quot;</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="129223728039155" type="sptAnzol">
+                    <param id="0" name="Instance variable">Estado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Subindo&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="993311735194285" type="sptAnzol">
+                    <param id="0" name="Y">sptAnzol.Y + 300 * dt</param>
+                </action>
+                <action id="-2" name="Set Y" sid="424362859800713" type="sptAnzol">
+                    <param id="0" name="Y">sptAnzol.Y - 300 * dt</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
