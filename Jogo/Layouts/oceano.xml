@@ -799,8 +799,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>527.625427246</x>
-                        <y>180.349105835</y>
+                        <x>455.498840332</x>
+                        <y>174.338195801</y>
                         <z>0</z>
                         <width>168.973861694</width>
                         <height>106.179527283</height>
@@ -901,8 +901,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>517</x>
-                        <y>448</y>
+                        <x>521.507629395</x>
+                        <y>463.026184082</y>
                         <z>0</z>
                         <width>48.230770111</width>
                         <height>20.224214554</height>
@@ -945,11 +945,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>371.866851807</x>
-                        <y>-56.287597656</y>
+                        <x>397.786865234</x>
+                        <y>164.598983765</y>
                         <z>0</z>
-                        <width>2</width>
-                        <height>29.113433838</height>
+                        <width>1.249511719</width>
+                        <height>14.087265015</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -965,13 +965,13 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Estado>&quot;Parado&quot;</Estado>
+                        <Estado>Parado</Estado>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>507.407653809</x>
-                        <y>-47.518615723</y>
+                        <x>398.469696045</x>
+                        <y>207.176818848</y>
                         <z>0</z>
                         <width>86.961395264</width>
                         <height>76.446289063</height>

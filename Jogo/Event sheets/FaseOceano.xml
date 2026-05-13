@@ -18,6 +18,13 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="-3" name="Set position" sid="805491787266010" type="sptLinha">
+                    <param id="0" name="X">sptBarco.X</param>
+                    <param id="1" name="Y">sptBarco.Y</param>
+                </action>
+                <action id="-6" name="Set height" sid="578713877757780" type="sptLinha">
+                    <param id="0" name="Height">distance(sptBarco.X, sptBarco.Y, sptAnzol.X, sptAnzol.Y)</param>
+                </action>
                 <action id="-22" name="Set angle toward position" sid="697425452714129" type="sptPeixeAma">
                     <param id="0" name="X">sptLixo2.X</param>
                     <param id="1" name="Y">sptLixo2.Y</param>
@@ -25,13 +32,6 @@
                 <action id="-22" name="Set angle toward position" sid="334123073873532" type="sptPeixeVer">
                     <param id="0" name="X">sptLixo2.X</param>
                     <param id="1" name="Y">sptLixo2.Y</param>
-                </action>
-                <action id="-1" name="Set X" sid="951950522914388" type="sptAnzol">
-                    <param id="0" name="X">sptBarco.X</param>
-                </action>
-                <action id="-3" name="Set position" sid="805491787266010" type="sptLinha">
-                    <param id="0" name="X">sptBarco.X</param>
-                    <param id="1" name="Y">sptBarco.Y</param>
                 </action>
             </actions>
         </event-block>
@@ -118,18 +118,128 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">&quot;Descendo&quot;</param>
                 </condition>
-                <condition id="-7" name="Compare instance variable" sid="129223728039155" type="sptAnzol">
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="993311735194285" type="sptAnzol">
+                    <param id="0" name="Y">sptAnzol.Y + 300 * dt</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="703265097830135">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="205642949358479" type="sptAnzol">
                     <param id="0" name="Instance variable">Estado</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">&quot;Subindo&quot;</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Set Y" sid="993311735194285" type="sptAnzol">
-                    <param id="0" name="Y">sptAnzol.Y + 300 * dt</param>
-                </action>
-                <action id="-2" name="Set Y" sid="424362859800713" type="sptAnzol">
+                <action id="-2" name="Set Y" sid="927565593604405" type="sptAnzol">
                     <param id="0" name="Y">sptAnzol.Y - 300 * dt</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="623355805397371">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="229597567998979" type="sptAnzol">
+                    <param id="0" name="Object">sptLixo2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="380561178532585" type="sptAnzol">
+                    <param id="0" name="Instance variable">Estado</param>
+                    <param id="1" name="Value">&quot;Subindo&quot;</param>
+                </action>
+                <action id="-4" name="Set position to another object" sid="649809416003214" type="sptLixo2">
+                    <param id="0" name="Object">sptAnzol</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="998426514117359">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="761069192306541" type="sptAnzol">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Y co-ordinate">480</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="340878840721063" type="sptAnzol">
+                    <param id="0" name="Instance variable">Estado</param>
+                    <param id="1" name="Value">&quot;Subindo&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="619033274404970">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="284210998396764" type="sptAnzol">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="Y co-ordinate">sptBarco.Y</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="483343411630758" type="sptAnzol">
+                    <param id="0" name="Instance variable">Estado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Subindo&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="975949444024609" type="sptAnzol">
+                    <param id="0" name="Instance variable">Estado</param>
+                    <param id="1" name="Value">&quot;Parado&quot;</param>
+                </action>
+                <action id="-2" name="Set Y" sid="942685162950394" type="sptAnzol">
+                    <param id="0" name="Y">sptBarco.Y</param>
+                </action>
+                <action id="-9" name="Destroy" sid="684741419722178" type="sptLixo2" />
+            </actions>
+        </event-block>
+        <event-block sid="886095512424419">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="485433045033511" type="System" />
+                <condition id="1" name="Is overlapping another object" sid="749498151219578" type="sptLixo2">
+                    <param id="0" name="Object">sptAnzol</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="156338266084986" type="sptAnzol">
+                    <param id="0" name="X">sptAnzol.X</param>
+                    <param id="1" name="Y">sptAnzol.Y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="261692199503728">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="823857146621161" type="System" />
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="951950522914388" type="sptAnzol">
+                    <param id="0" name="X">sptBarco.X</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="237215485027645">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="655559000396766" type="sptPeixeAma">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="X co-ordinate">sptLixo2.X</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="8" name="Set flipped" sid="173165062601131" type="sptPeixeAma">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="908627926748540">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="188947257962928" type="sptPeixeAma">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="X co-ordinate">sptLixo2.X</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="8" name="Set flipped" sid="805650301864254" type="sptPeixeAma">
+                    <param id="0" name="State">1</param>
                 </action>
             </actions>
         </event-block>
