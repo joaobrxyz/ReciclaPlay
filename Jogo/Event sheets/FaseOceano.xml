@@ -19,11 +19,11 @@
             </conditions>
             <actions>
                 <action id="-3" name="Set position" sid="805491787266010" type="sptLinha">
-                    <param id="0" name="X">sptBarco.X</param>
-                    <param id="1" name="Y">sptBarco.Y</param>
+                    <param id="0" name="X">sptBarco.ImagePointX(1)</param>
+                    <param id="1" name="Y">sptBarco.ImagePointY(1)</param>
                 </action>
                 <action id="-6" name="Set height" sid="578713877757780" type="sptLinha">
-                    <param id="0" name="Height">distance(sptBarco.X, sptBarco.Y, sptAnzol.X, sptAnzol.Y)</param>
+                    <param id="0" name="Height">sptAnzol.Y - sptBarco.ImagePointY(1)</param>
                 </action>
                 <action id="-22" name="Set angle toward position" sid="697425452714129" type="sptPeixeAma">
                     <param id="0" name="X">sptLixo2.X</param>
@@ -213,7 +213,7 @@
             </conditions>
             <actions>
                 <action id="-1" name="Set X" sid="951950522914388" type="sptAnzol">
-                    <param id="0" name="X">sptBarco.X</param>
+                    <param id="0" name="X">sptBarco.ImagePointX(1)</param>
                 </action>
             </actions>
         </event-block>

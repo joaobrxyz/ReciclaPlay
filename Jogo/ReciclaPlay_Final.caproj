@@ -256,13 +256,24 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="448770699462600" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Default\fish_red_outline.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\aikaf\Documents\GitHub\pasta 2025\ReciclaPlay\Novos Assests\fish_red.png">
+                        <collision-poly>
+                            <point x="0.335" y="0.335" />
+                            <point x="0.5" y="0.165" />
+                            <point x="0.825" y="0.175" />
+                            <point x="0.98" y="0.5" />
+                            <point x="0.825" y="0.825" />
+                            <point x="0.5" y="0.865" />
+                            <point x="0.28" y="0.72" />
+                            <point x="0.03" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="tlbAreiaEstrela" sid="182716938026254">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\terrain_sand_d.png" />
+            <texture original-source="C:\Users\aikaf\Documents\GitHub\pasta 2025\ReciclaPlay\Novos Assests\estela.png" />
         </object-type>
         <object-type name="tblAreia" sid="419476154730425">
             <plugin id="TiledBg" />
@@ -284,7 +295,18 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="946326335711011" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\seaweed_green_a_outline.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\aikaf\Documents\GitHub\pasta 2025\ReciclaPlay\Novos Assests\seaweed_green.png">
+                        <collision-poly>
+                            <point x="0.205" y="0.205" />
+                            <point x="0.5" y="0.08" />
+                            <point x="0.65" y="0.35" />
+                            <point x="0.815" y="0.5" />
+                            <point x="0.87" y="0.87" />
+                            <point x="0.5" y="1" />
+                            <point x="0.14" y="0.86" />
+                            <point x="0.125" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -292,7 +314,18 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="771082112689086" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\seaweed_grass_a_outline.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\aikaf\Documents\GitHub\pasta 2025\ReciclaPlay\Novos Assests\seaweed_grass.png">
+                        <collision-poly>
+                            <point x="0.515" y="0.515" />
+                            <point x="0.5" y="0.575" />
+                            <point x="0.735" y="0.265" />
+                            <point x="0.705" y="0.5" />
+                            <point x="0.83" y="0.83" />
+                            <point x="0.5" y="1" />
+                            <point x="0.1" y="0.9" />
+                            <point x="0.285" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -300,7 +333,17 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="977658118180060" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\aikaf\Documents\GitHub\pasta 2025\ReciclaPlay\Novos Assests\seaweed_pink.png">
+                        <collision-poly>
+                            <point x="0.425" y="0.425" />
+                            <point x="0.5" y="0.49" />
+                            <point x="0.51" y="0.5" />
+                            <point x="0.525" y="0.525" />
+                            <point x="0.5" y="1" />
+                            <point x="0.325" y="0.675" />
+                            <point x="0.28" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -390,7 +433,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="819239495023101" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\kenney_fish-pack_2\PNG\Double\fish_orange_outline.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\aikaf\Documents\GitHub\pasta 2025\ReciclaPlay\Novos Assests\fish_blue.png">
                         <collision-poly>
                             <point x="0.372881" y="0.279412" />
                             <point x="0.5" y="0.117647" />
@@ -413,7 +456,8 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="537920417469300" speed="5">
-                    <frame duration="1" hotspotX="0.429054" hotspotY="0.55914" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\barco.png">
+                    <frame duration="1" hotspotX="0.428797" hotspotY="0.559256" original-source="C:\Users\aikaf\Documents\GitHub\pasta 2025\ReciclaPlay\Novos Assests\Barco.png">
+                        <image-point name="Imagepoint 1" x="0.923259" y="0.63859" />
                         <collision-poly>
                             <point x="0.00337838" y="0.66129" />
                             <point x="0.429054" y="0.564516" />
