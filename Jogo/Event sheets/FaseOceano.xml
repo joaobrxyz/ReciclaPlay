@@ -154,6 +154,10 @@
                     <param id="0" name="Object">sptAnzol</param>
                     <param id="1" name="Image point (optional)">0</param>
                 </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="632981604321685" type="sptLixo2">
+                    <param id="0" name="Pin to">sptAnzol</param>
+                    <param id="1" name="Mode">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="998426514117359">
@@ -190,21 +194,20 @@
                 <action id="-2" name="Set Y" sid="942685162950394" type="sptAnzol">
                     <param id="0" name="Y">sptBarco.Y</param>
                 </action>
-                <action id="-9" name="Destroy" sid="684741419722178" type="sptLixo2" />
             </actions>
         </event-block>
-        <event-block sid="886095512424419">
+        <event-block sid="596158430314302">
             <conditions>
-                <condition id="-1" name="Every tick" sid="485433045033511" type="System" />
-                <condition id="1" name="Is overlapping another object" sid="749498151219578" type="sptLixo2">
+                <condition id="1" name="Is overlapping another object" sid="484512193847694" type="sptLixo2">
                     <param id="0" name="Object">sptAnzol</param>
+                </condition>
+                <condition id="-2" name="Compare Y" sid="754142436408122" type="sptAnzol">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="Y co-ordinate">sptBarco.ImagePointY(1)</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="156338266084986" type="sptAnzol">
-                    <param id="0" name="X">sptAnzol.X</param>
-                    <param id="1" name="Y">sptAnzol.Y</param>
-                </action>
+                <action id="-9" name="Destroy" sid="914715641347433" type="sptLixo2" />
             </actions>
         </event-block>
         <event-block sid="261692199503728">

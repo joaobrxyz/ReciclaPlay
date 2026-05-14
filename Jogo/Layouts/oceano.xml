@@ -873,20 +873,23 @@
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
-                        <initial-frame>2</initial-frame>
+                        <initial-frame>1</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>443</x>
-                        <y>465</y>
+                        <x>498.560668945</x>
+                        <y>333.646942139</y>
                         <z>0</z>
-                        <width>54.305934906</width>
-                        <height>103.50617981</height>
+                        <width>47.421737671</width>
+                        <height>24.434934616</height>
                         <depth>0</depth>
-                        <hotspotX>3.337606907</hotspotX>
-                        <hotspotY>1.130044818</hotspotY>
+                        <hotspotX>1.282296658</hotspotX>
+                        <hotspotY>1.043902397</hotspotY>
                         <angle>1.570796371</angle>
                         <opacity>1</opacity>
                     </world>
@@ -898,6 +901,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -920,6 +926,9 @@
                         <initial-frame>1</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
