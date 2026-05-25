@@ -124,6 +124,15 @@
                                     <param id="1" name="Value">1</param>
                                 </action>
                                 <action id="-9" name="Destroy" sid="129275499799375" type="sptLixo" />
+                                <action id="-3" name="Create object" sid="484289462477863" type="System">
+                                    <param id="0" name="Object to create">sptFeedbackF02</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="X">540</param>
+                                    <param id="3" name="Y">261</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="994209147179331" type="sptFeedbackF02">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="530261465551664">
@@ -136,6 +145,15 @@
                                     <param id="1" name="Value">50</param>
                                 </action>
                                 <action id="-9" name="Destroy" sid="627993426916706" type="sptLixo" />
+                                <action id="-3" name="Create object" sid="895537217763590" type="System">
+                                    <param id="0" name="Object to create">sptFeedbackF02</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="X">540</param>
+                                    <param id="3" name="Y">261</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="342742782566127" type="sptFeedbackF02">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -178,6 +196,15 @@
                                     <param id="1" name="Value">1</param>
                                 </action>
                                 <action id="-9" name="Destroy" sid="921437686921784" type="sptLixo" />
+                                <action id="-3" name="Create object" sid="579706599623626" type="System">
+                                    <param id="0" name="Object to create">sptFeedbackF02</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="X">540</param>
+                                    <param id="3" name="Y">261</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="497511731434114" type="sptFeedbackF02">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="911375753387592">
@@ -190,6 +217,15 @@
                                     <param id="1" name="Value">50</param>
                                 </action>
                                 <action id="-9" name="Destroy" sid="350260000855625" type="sptLixo" />
+                                <action id="-3" name="Create object" sid="760483162822211" type="System">
+                                    <param id="0" name="Object to create">sptFeedbackF02</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="X">540</param>
+                                    <param id="3" name="Y">261</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="898565407306870" type="sptFeedbackF02">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -232,6 +268,15 @@
                                     <param id="1" name="Value">1</param>
                                 </action>
                                 <action id="-9" name="Destroy" sid="519289232039258" type="sptLixo" />
+                                <action id="-3" name="Create object" sid="572010499341345" type="System">
+                                    <param id="0" name="Object to create">sptFeedbackF02</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="X">540</param>
+                                    <param id="3" name="Y">261</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="513761528242444" type="sptFeedbackF02">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="730555370704303">
@@ -244,6 +289,15 @@
                                     <param id="1" name="Value">50</param>
                                 </action>
                                 <action id="-9" name="Destroy" sid="284375558861143" type="sptLixo" />
+                                <action id="-3" name="Create object" sid="696155473330191" type="System">
+                                    <param id="0" name="Object to create">sptFeedbackF02</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="X">540</param>
+                                    <param id="3" name="Y">261</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="937216952708734" type="sptFeedbackF02">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -286,6 +340,15 @@
                                     <param id="1" name="Value">1</param>
                                 </action>
                                 <action id="-9" name="Destroy" sid="418026220339297" type="sptLixo" />
+                                <action id="-3" name="Create object" sid="947081223036773" type="System">
+                                    <param id="0" name="Object to create">sptFeedbackF02</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="X">540</param>
+                                    <param id="3" name="Y">261</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="501815620550055" type="sptFeedbackF02">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="293419340831307">
@@ -298,6 +361,15 @@
                                     <param id="1" name="Value">50</param>
                                 </action>
                                 <action id="-9" name="Destroy" sid="686783881743001" type="sptLixo" />
+                                <action id="-3" name="Create object" sid="953755333650999" type="System">
+                                    <param id="0" name="Object to create">sptFeedbackF02</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="X">540</param>
+                                    <param id="3" name="Y">261</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="327064523989550" type="sptFeedbackF02">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -340,6 +412,15 @@
                                     <param id="1" name="Value">1</param>
                                 </action>
                                 <action id="-9" name="Destroy" sid="735976821915312" type="sptLixo" />
+                                <action id="-3" name="Create object" sid="540174420327624" type="System">
+                                    <param id="0" name="Object to create">sptFeedbackF02</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="X">540</param>
+                                    <param id="3" name="Y">261</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="614061960922452" type="sptFeedbackF02">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="586206611150419">
@@ -352,6 +433,15 @@
                                     <param id="1" name="Value">50</param>
                                 </action>
                                 <action id="-9" name="Destroy" sid="829569704712767" type="sptLixo" />
+                                <action id="-3" name="Create object" sid="229985795354110" type="System">
+                                    <param id="0" name="Object to create">sptFeedbackF02</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="X">540</param>
+                                    <param id="3" name="Y">261</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="472048856068278" type="sptFeedbackF02">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -394,6 +484,15 @@
                                     <param id="1" name="Value">1</param>
                                 </action>
                                 <action id="-9" name="Destroy" sid="893577316546831" type="sptLixo" />
+                                <action id="-3" name="Create object" sid="412277521044574" type="System">
+                                    <param id="0" name="Object to create">sptFeedbackF02</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="X">540</param>
+                                    <param id="3" name="Y">261</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="601845576396781" type="sptFeedbackF02">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="535445684971297">
@@ -406,6 +505,15 @@
                                     <param id="1" name="Value">50</param>
                                 </action>
                                 <action id="-9" name="Destroy" sid="897962858640385" type="sptLixo" />
+                                <action id="-3" name="Create object" sid="496932208800195" type="System">
+                                    <param id="0" name="Object to create">sptFeedbackF02</param>
+                                    <param id="1" name="Layer">2</param>
+                                    <param id="2" name="X">540</param>
+                                    <param id="3" name="Y">261</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="189968187522051" type="sptFeedbackF02">
+                                    <param id="0" name="Frame number">2</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>

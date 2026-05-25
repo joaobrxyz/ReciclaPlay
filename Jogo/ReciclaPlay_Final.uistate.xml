@@ -11,10 +11,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="1">Tela Inicial</layout>
-        <layout active="1" order="2">oceano</layout>
+        <layout order="2">oceano</layout>
         <layout order="3">FaseDoLixo</layout>
         <layout order="4">Creditos</layout>
-        <event-sheet order="5">EvtFaseDoLixo</event-sheet>
+        <event-sheet active="1" order="5">EvtFaseDoLixo</event-sheet>
         <event-sheet order="6">FaseOceano</event-sheet>
         <event-sheet order="7">Event sheet 1</event-sheet>
     </open-tabs>
@@ -61,5 +61,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/sptLinha/" />
         <folder expanded="1" path="animation-folder/sptAnzol/" />
         <folder expanded="1" path="animation-folder/sptParedeF03/" />
+        <folder expanded="1" path="animation-folder/sptFeedbackF02/" />
     </folders-expanded>
 </c2uistate>
