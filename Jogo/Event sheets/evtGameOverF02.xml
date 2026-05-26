@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>evtGameOverF02</name>
+    <events>
+        <event-block sid="300901419367108">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="313491645790955" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="107386021360334" type="txtPontos">
+                    <param id="0" name="Text">varPontosF02</param>
+                </action>
+                <action id="0" name="Set text" sid="511277430791178" type="txtTempo">
+                    <param id="0" name="Text">varTempo</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

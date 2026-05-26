@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EvtFaseDoLixo</name>
     <events>
+        <variable constant="0" name="varNewLixo" sid="914673708465006" static="0" type="number">1.7</variable>
         <variable constant="0" name="varTempo" sid="927548205907944" static="0" type="number">0</variable>
         <variable constant="0" name="VelocidadeQuedaF02" sid="455564261847691" static="0" type="number">200</variable>
         <variable constant="0" name="varPontosF02" sid="587511546580428" static="0" type="number">0</variable>
@@ -53,7 +54,7 @@
         <event-block sid="281799049445045">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="378867320776147" type="System">
-                    <param id="0" name="Interval (seconds)">1.7</param>
+                    <param id="0" name="Interval (seconds)">varNewLixo</param>
                 </condition>
             </conditions>
             <actions>
@@ -61,7 +62,7 @@
                     <param id="0" name="Object to create">sptLixo</param>
                     <param id="1" name="Layer">2</param>
                     <param id="2" name="X">random(360,660)</param>
-                    <param id="3" name="Y">-15</param>
+                    <param id="3" name="Y">0</param>
                 </action>
                 <action id="5" name="Set frame" sid="528246402845930" type="sptLixo">
                     <param id="0" name="Frame number">random(0, 12)</param>
@@ -519,6 +520,78 @@
                     </sub-events>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="491803027071622">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="304617412115994" type="System">
+                    <param id="0" name="Variable">varPontosF02</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">1000</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="686560376928300" type="System">
+                    <param id="0" name="Variable">varNewLixo</param>
+                    <param id="1" name="Value">1.4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="671406421390625">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="181053826065395" type="System">
+                    <param id="0" name="Variable">varPontosF02</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">1500</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="137161022016843" type="System">
+                    <param id="0" name="Variable">varNewLixo</param>
+                    <param id="1" name="Value">1.1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="756455958779889">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="346788459117463" type="System">
+                    <param id="0" name="Variable">varPontosF02</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">2000</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="523404292169102" type="System">
+                    <param id="0" name="Variable">varNewLixo</param>
+                    <param id="1" name="Value">0.9</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="902525433791004">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="735391970294306" type="System">
+                    <param id="0" name="Variable">varPontosF02</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">3000</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="475723441471019" type="System">
+                    <param id="0" name="Variable">varNewLixo</param>
+                    <param id="1" name="Value">0.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="421483880088529">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="913119170302090" type="sptLixo">
+                    <param id="0" name="Object">sptLimiteTetoF02</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="553075427066825" type="System">
+                    <param id="0" name="Layout">GameOverF02</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

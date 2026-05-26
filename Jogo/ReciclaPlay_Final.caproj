@@ -486,18 +486,18 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="12" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="527805136234839" speed="0">
-                    <frame duration="1" hotspotX="0.636364" hotspotY="0.556098" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Metais\latinha_cocacola.png" />
-                    <frame duration="1" hotspotX="1.2823" hotspotY="1.0439" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Metais\latinha_pepsi.png" />
-                    <frame duration="1" hotspotX="3.33761" hotspotY="1.13004" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Papéis\caixa_pizza.png" />
-                    <frame duration="1" hotspotX="9.21901" hotspotY="1.40113" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Papéis\jornal.png" />
-                    <frame duration="1" hotspotX="14.9497" hotspotY="3.75714" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Plásticos\garrafa.png" />
-                    <frame duration="1" hotspotX="26.0049" hotspotY="9.22513" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Plásticos\milkshake.png" />
-                    <frame duration="1" hotspotX="74.8715" hotspotY="52.4302" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Vidros\garrafa01.png" />
-                    <frame duration="1" hotspotX="216.956" hotspotY="309.651" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Vidros\garrafa02.png" />
-                    <frame duration="1" hotspotX="479.768" hotspotY="623.646" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Orgânicos\batata.png" />
-                    <frame duration="1" hotspotX="1314.97" hotspotY="1182.16" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Orgânicos\maça.png" />
-                    <frame duration="1" hotspotX="6798.3" hotspotY="1341.98" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Não recicláveis\curativo.png" />
-                    <frame duration="1" hotspotX="20593.1" hotspotY="1935.2" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Não recicláveis\esponja.png" />
+                    <frame duration="1" hotspotX="0.521531" hotspotY="0.478049" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Metais\latinha_cocacola.png" />
+                    <frame duration="1" hotspotX="0.543062" hotspotY="0.482927" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Metais\latinha_pepsi.png" />
+                    <frame duration="1" hotspotX="0.457265" hotspotY="0.461883" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Papéis\caixa_pizza.png" />
+                    <frame duration="1" hotspotX="0.520661" hotspotY="0.468927" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Papéis\jornal.png" />
+                    <frame duration="1" hotspotX="0.510297" hotspotY="0.521429" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Plásticos\garrafa.png" />
+                    <frame duration="1" hotspotX="0.539024" hotspotY="0.445026" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Plásticos\milkshake.png" />
+                    <frame duration="1" hotspotX="0.542169" hotspotY="0.465116" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Vidros\garrafa01.png" />
+                    <frame duration="1" hotspotX="0.542169" hotspotY="0.44186" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Vidros\garrafa02.png" />
+                    <frame duration="1" hotspotX="0.538226" hotspotY="0.511811" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Orgânicos\batata.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.496296" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Orgânicos\maça.png" />
+                    <frame duration="1" hotspotX="0.485714" hotspotY="0.498891" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Não recicláveis\curativo.png" />
+                    <frame duration="1" hotspotX="0.410042" hotspotY="0.492958" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Não recicláveis\esponja.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -659,6 +659,53 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="sptLimiteTetoF02" sid="779850894430096">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="318973455684447">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="548731608998331" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptFimDeJogoF02" sid="275527761933820">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="378286093420282" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1.19231" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Fase 02\fim de jogo.png">
+                        <collision-poly>
+                            <point x="0.40081" y="0.25" />
+                            <point x="0.5" y="0.25" />
+                            <point x="0.449393" y="0.711538" />
+                            <point x="0.5" y="0.865385" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btAvancarFase" sid="724949803453538">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="sptQuadrado" sid="848084716102360">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="683110154687331" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptBtAvancar" sid="931729036987066">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="515450594773817" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="-2.13433" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Fase 02\btAvancar.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -668,12 +715,14 @@
         <layout>oceano.xml</layout>
         <layout>Creditos.xml</layout>
         <layout>Layout 1.xml</layout>
+        <layout>GameOverF02.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>EvtFaseDoLixo.xml</event-sheet>
         <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>Event sheet 2.xml</event-sheet>
         <event-sheet>FaseOceano.xml</event-sheet>
+        <event-sheet>evtGameOverF02.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="62" />
