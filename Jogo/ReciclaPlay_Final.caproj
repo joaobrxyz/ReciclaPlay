@@ -716,6 +716,7 @@
         <layout>Creditos.xml</layout>
         <layout>Layout 1.xml</layout>
         <layout>GameOverF02.xml</layout>
+        <layout>Fases.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>EvtFaseDoLixo.xml</event-sheet>
@@ -723,6 +724,7 @@
         <event-sheet>Event sheet 2.xml</event-sheet>
         <event-sheet>FaseOceano.xml</event-sheet>
         <event-sheet>evtGameOverF02.xml</event-sheet>
+        <event-sheet>EvtFases.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="62" />

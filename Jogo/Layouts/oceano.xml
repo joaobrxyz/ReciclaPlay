@@ -491,7 +491,7 @@
                     <behavior-instances>
                         <behavior-instance type="Bullet">
                             <properties>
-                                <speed>50</speed>
+                                <speed>20</speed>
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
@@ -525,7 +525,7 @@
                     <behavior-instances>
                         <behavior-instance type="Bullet">
                             <properties>
-                                <speed>50</speed>
+                                <speed>20</speed>
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
@@ -559,7 +559,7 @@
                     <behavior-instances>
                         <behavior-instance type="Bullet">
                             <properties>
-                                <speed>50</speed>
+                                <speed>20</speed>
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
@@ -593,7 +593,7 @@
                     <behavior-instances>
                         <behavior-instance type="Bullet">
                             <properties>
-                                <speed>50</speed>
+                                <speed>20</speed>
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
@@ -605,8 +605,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>790.43548584</x>
-                        <y>298.386627197</y>
+                        <x>998.617858887</x>
+                        <y>391.113922119</y>
                         <z>0</z>
                         <width>42.281898499</width>
                         <height>37.021430969</height>
@@ -627,7 +627,7 @@
                     <behavior-instances>
                         <behavior-instance type="Bullet">
                             <properties>
-                                <speed>50</speed>
+                                <speed>20</speed>
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
@@ -639,8 +639,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>646.412719727</x>
-                        <y>358.838989258</y>
+                        <x>965.501342773</x>
+                        <y>273.384918213</y>
                         <z>0</z>
                         <width>42.281898499</width>
                         <height>37.021430969</height>
@@ -661,7 +661,7 @@
                     <behavior-instances>
                         <behavior-instance type="Bullet">
                             <properties>
-                                <speed>50</speed>
+                                <speed>20</speed>
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
@@ -794,8 +794,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>498.560668945</x>
-                        <y>333.646942139</y>
+                        <x>715.832458496</x>
+                        <y>475.464996338</y>
                         <z>0</z>
                         <width>47.421737671</width>
                         <height>24.434934616</height>
@@ -819,8 +819,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>521.507629395</x>
-                        <y>463.026184082</y>
+                        <x>686.95880127</x>
+                        <y>371.20703125</y>
                         <z>0</z>
                         <width>48.230770111</width>
                         <height>20.224214554</height>
@@ -844,8 +844,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>325.298370361</x>
-                        <y>478.471221924</y>
+                        <x>452.569946289</x>
+                        <y>474.836029053</y>
                         <z>0</z>
                         <width>42</width>
                         <height>18</height>
@@ -1017,6 +1017,81 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sptLixo2" uid="84">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>586.270324707</x>
+                        <y>328.766998291</y>
+                        <z>0</z>
+                        <width>42</width>
+                        <height>18</height>
+                        <depth>0</depth>
+                        <hotspotX>0.636363626</hotspotX>
+                        <hotspotY>0.556097567</hotspotY>
+                        <angle>1.570796371</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sptLixo2" uid="85">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>1</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>437.179077148</x>
+                        <y>369.673675537</y>
+                        <z>0</z>
+                        <width>42</width>
+                        <height>18</height>
+                        <depth>0</depth>
+                        <hotspotX>1.282296658</hotspotX>
+                        <hotspotY>1.043902397</hotspotY>
+                        <angle>1.570796371</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sptLixo2" uid="86">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>584.551269531</x>
+                        <y>465.956726074</y>
+                        <z>0</z>
+                        <width>44.727081299</width>
+                        <height>24.362365723</height>
+                        <depth>0</depth>
+                        <hotspotX>0.636363626</hotspotX>
+                        <hotspotY>0.556097567</hotspotY>
+                        <angle>1.570796371</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
