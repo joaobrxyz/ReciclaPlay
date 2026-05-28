@@ -16,5 +16,17 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="396992580239547">
+            <conditions>
+                <condition id="3" name="On touched object" sid="839947882205244" type="btAvancar">
+                    <param id="0" name="Object">sptBtAvancar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="635679754971968" type="System">
+                    <param id="0" name="Layout">Fases</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

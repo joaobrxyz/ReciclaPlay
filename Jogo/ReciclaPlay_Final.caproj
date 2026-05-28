@@ -15,6 +15,7 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
@@ -706,6 +707,53 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="tldFases" sid="463335196084192">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\tela-fases.png" />
+        </object-type>
+        <object-type name="btFase01" sid="952943646007281">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="btFase02" sid="669539338963449">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="btFase03" sid="485039121243138">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="sptBtFase" sid="889001649928970">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301910289451096" speed="0">
+                    <frame duration="1" hotspotX="0.509317" hotspotY="0.519553" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\btFase01.png">
+                        <collision-poly>
+                            <point x="0.509317" y="0.0167598" />
+                            <point x="0.906833" y="0.519553" />
+                            <point x="0.509317" y="0.988827" />
+                            <point x="0.111801" y="0.519553" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.534162" hotspotY="0.563536" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\btFase02.png">
+                        <collision-poly>
+                            <point x="0.533158" y="0" />
+                            <point x="1" y="0.561591" />
+                            <point x="0.533158" y="1" />
+                            <point x="0" y="0.561591" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.659483" hotspotY="0.632959" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\btFase03.png">
+                        <collision-poly>
+                            <point x="0.654358" y="0" />
+                            <point x="1" y="0.628448" />
+                            <point x="0.654358" y="1" />
+                            <point x="0" y="0.628448" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btAvancar" sid="636521124041609">
+            <plugin id="Touch" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -728,6 +776,11 @@
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="62" />
+        <global-instance type="btAvancar" uid="91">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder />
     <music-folder />

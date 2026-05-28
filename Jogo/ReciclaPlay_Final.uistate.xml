@@ -10,17 +10,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="1">Tela Inicial</layout>
-        <layout order="2">oceano</layout>
-        <layout order="3">FaseDoLixo</layout>
-        <layout order="4">Creditos</layout>
-        <layout order="8">GameOverF02</layout>
-        <layout order="10">Fases</layout>
-        <event-sheet order="5">EvtFaseDoLixo</event-sheet>
-        <event-sheet active="1" order="6">FaseOceano</event-sheet>
-        <event-sheet order="7">Event sheet 1</event-sheet>
-        <event-sheet order="9">evtGameOverF02</event-sheet>
-        <event-sheet order="11">EvtFases</event-sheet>
+        <layout order="0">Tela Inicial</layout>
+        <layout order="1">oceano</layout>
+        <layout order="2">FaseDoLixo</layout>
+        <layout order="3">Creditos</layout>
+        <layout order="7">GameOverF02</layout>
+        <layout active="1" order="9">Fases</layout>
+        <event-sheet order="4">EvtFaseDoLixo</event-sheet>
+        <event-sheet order="5">FaseOceano</event-sheet>
+        <event-sheet order="6">Event sheet 1</event-sheet>
+        <event-sheet order="8">evtGameOverF02</event-sheet>
+        <event-sheet order="10">EvtFases</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -70,5 +70,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/sptFimDeJogoF02/" />
         <folder expanded="1" path="animation-folder/sptQuadrado/" />
         <folder expanded="1" path="animation-folder/sptBtAvancar/" />
+        <folder expanded="1" path="animation-folder/sptBtFase/" />
     </folders-expanded>
 </c2uistate>
