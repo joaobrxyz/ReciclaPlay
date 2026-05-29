@@ -10,20 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">TelaInicial</layout>
-        <layout order="1">FaseOceano</layout>
-        <layout order="2">FaseReciclagem</layout>
-        <layout order="3">Creditos</layout>
-        <layout order="6">GameOverF02</layout>
-        <layout order="8">Fases</layout>
-        <layout active="1" order="11">FaseQuarto</layout>
-        <layout order="12">TutorialF01</layout>
-        <event-sheet order="4">EvtFaseReciclagem</event-sheet>
-        <event-sheet order="5">EvtTutorialF01</event-sheet>
-        <event-sheet order="7">EvtGameOverF02</event-sheet>
-        <event-sheet order="9">EvtFases</event-sheet>
-        <event-sheet order="10">EvtTelaInicial</event-sheet>
-        <event-sheet order="13">EvtFaseOceano</event-sheet>
+        <layout active="1" order="0">FaseOceano</layout>
+        <event-sheet order="1">EvtFaseOceano</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

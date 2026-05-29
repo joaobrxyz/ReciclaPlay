@@ -808,6 +808,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="txtPlacar" sid="287556326080119">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
