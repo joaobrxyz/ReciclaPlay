@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>EvtFaseDoLixo</name>
+    <name>EvtFaseReciclagem</name>
     <events>
         <variable constant="0" name="varNewLixo" sid="914673708465006" static="0" type="number">1.7</variable>
         <variable constant="0" name="varTempo" sid="927548205907944" static="0" type="number">0</variable>

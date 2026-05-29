@@ -419,7 +419,7 @@
         </object-type>
         <object-type name="tlbTelaInicial" sid="786038474333935">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\fundo-jogo.png" />
+            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\tela-inicial.png" />
         </object-type>
         <object-type name="btPlay" sid="320117864817298">
             <plugin id="Button" />
@@ -571,18 +571,18 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="12" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="409586260190333" speed="0">
-                    <frame duration="1" hotspotX="0.636364" hotspotY="0.556098" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Metais\latinha_cocacola.png" />
-                    <frame duration="1" hotspotX="1.2823" hotspotY="1.0439" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Metais\latinha_pepsi.png" />
-                    <frame duration="1" hotspotX="3.33761" hotspotY="1.13004" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Papéis\caixa_pizza.png" />
-                    <frame duration="1" hotspotX="9.21901" hotspotY="1.40113" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Papéis\jornal.png" />
-                    <frame duration="1" hotspotX="14.9497" hotspotY="3.75714" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Plásticos\garrafa.png" />
-                    <frame duration="1" hotspotX="26.0049" hotspotY="9.22513" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Plásticos\milkshake.png" />
-                    <frame duration="1" hotspotX="74.8715" hotspotY="52.4302" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Vidros\garrafa01.png" />
-                    <frame duration="1" hotspotX="216.956" hotspotY="309.651" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Vidros\garrafa02.png" />
-                    <frame duration="1" hotspotX="479.768" hotspotY="623.646" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Orgânicos\batata.png" />
-                    <frame duration="1" hotspotX="1314.97" hotspotY="1182.16" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Orgânicos\maça.png" />
-                    <frame duration="1" hotspotX="6798.3" hotspotY="1341.98" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Não recicláveis\curativo.png" />
-                    <frame duration="1" hotspotX="20593.1" hotspotY="1935.2" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Não recicláveis\esponja.png" />
+                    <frame duration="1" hotspotX="0.526316" hotspotY="0.517073" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Metais\latinha_cocacola.png" />
+                    <frame duration="1" hotspotX="0.526316" hotspotY="0.502439" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Metais\latinha_pepsi.png" />
+                    <frame duration="1" hotspotX="0.41453" hotspotY="0.477578" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Papéis\caixa_pizza.png" />
+                    <frame duration="1" hotspotX="0.504132" hotspotY="0.539548" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Papéis\jornal.png" />
+                    <frame duration="1" hotspotX="0.537757" hotspotY="0.485714" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Plásticos\garrafa.png" />
+                    <frame duration="1" hotspotX="0.626829" hotspotY="0.507853" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Plásticos\milkshake.png" />
+                    <frame duration="1" hotspotX="0.534137" hotspotY="0.5" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Vidros\garrafa01.png" />
+                    <frame duration="1" hotspotX="0.574297" hotspotY="0.476744" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Vidros\garrafa02.png" />
+                    <frame duration="1" hotspotX="0.553517" hotspotY="0.472441" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Orgânicos\batata.png" />
+                    <frame duration="1" hotspotX="0.484848" hotspotY="0.492593" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Orgânicos\maça.png" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.503326" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Não recicláveis\curativo.png" />
+                    <frame duration="1" hotspotX="0.426778" hotspotY="0.476056" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\Fase 02\Resíduos\Não recicláveis\esponja.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -754,25 +754,80 @@
         <object-type name="btAvancar" sid="636521124041609">
             <plugin id="Touch" />
         </object-type>
+        <object-type name="sptBtJogar" sid="468680513273544">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="178054168975580" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptBtCreditos" sid="709054276215551">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="891562307822835" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tldFundoF01" sid="416252247941513">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Fase 01\fundo.png" />
+        </object-type>
+        <object-type name="sptLixeira" sid="528644267420703">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="615440064929888" speed="5">
+                    <frame duration="1" hotspotX="0.508876" hotspotY="0.515432" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Fase 02\Lixeiras\comum.png">
+                        <collision-poly>
+                            <point x="0.201183" y="0.0277778" />
+                            <point x="0.508876" y="0.00617279" />
+                            <point x="0.810651" y="0.0308642" />
+                            <point x="0.923077" y="0.515432" />
+                            <point x="0.775148" y="0.981481" />
+                            <point x="0.508876" y="0.993827" />
+                            <point x="0.236686" y="0.984568" />
+                            <point x="0.0591716" y="0.515432" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptBarata" sid="247490474819210">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="902130040929577" speed="5">
+                    <frame duration="1" hotspotX="0.479212" hotspotY="1.36638" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\Fase 01\barata.png">
+                        <collision-poly>
+                            <point x="0.327395" y="0.209433" />
+                            <point x="0.62534" y="0.280993" />
+                            <point x="0.569782" y="0.890765" />
+                            <point x="0.420131" y="0.905708" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Tela Inicial.xml</layout>
-        <layout>Tutorial.xml</layout>
-        <layout>FaseDoLixo.xml</layout>
-        <layout>oceano.xml</layout>
+        <layout>TelaInicial.xml</layout>
+        <layout>TutorialF01.xml</layout>
+        <layout>FaseReciclagem.xml</layout>
+        <layout>FaseOceano.xml</layout>
         <layout>Creditos.xml</layout>
-        <layout>Layout 1.xml</layout>
+        <layout>FaseQuarto.xml</layout>
         <layout>GameOverF02.xml</layout>
         <layout>Fases.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>EvtFaseDoLixo.xml</event-sheet>
-        <event-sheet>Event sheet 1.xml</event-sheet>
-        <event-sheet>Event sheet 2.xml</event-sheet>
-        <event-sheet>FaseOceano.xml</event-sheet>
-        <event-sheet>evtGameOverF02.xml</event-sheet>
+        <event-sheet>EvtFaseReciclagem.xml</event-sheet>
+        <event-sheet>EvtTutorialF01.xml</event-sheet>
+        <event-sheet>EvtFaseQuarto.xml</event-sheet>
+        <event-sheet>EvtFaseOceano.xml</event-sheet>
+        <event-sheet>EvtGameOverF02.xml</event-sheet>
         <event-sheet>EvtFases.xml</event-sheet>
+        <event-sheet>EvtTelaInicial.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="62" />

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>oceano</name>
+    <name>FaseOceano</name>
     <sid>278750409721995</sid>
-    <event-sheet>FaseOceano</event-sheet>
+    <event-sheet>EvtFaseOceano</event-sheet>
     <size>
         <width>1080</width>
         <height>500</height>
@@ -800,8 +800,8 @@
                         <width>47.421737671</width>
                         <height>24.434934616</height>
                         <depth>0</depth>
-                        <hotspotX>1.282296658</hotspotX>
-                        <hotspotY>1.043902397</hotspotY>
+                        <hotspotX>0.526315808</hotspotX>
+                        <hotspotY>0.502439022</hotspotY>
                         <angle>1.570796371</angle>
                         <opacity>1</opacity>
                     </world>
@@ -825,8 +825,8 @@
                         <width>48.230770111</width>
                         <height>20.224214554</height>
                         <depth>0</depth>
-                        <hotspotX>0.636363626</hotspotX>
-                        <hotspotY>0.556097567</hotspotY>
+                        <hotspotX>0.526315808</hotspotX>
+                        <hotspotY>0.517073154</hotspotY>
                         <angle>1.570796371</angle>
                         <opacity>1</opacity>
                     </world>
@@ -850,8 +850,8 @@
                         <width>42</width>
                         <height>18</height>
                         <depth>0</depth>
-                        <hotspotX>1.282296658</hotspotX>
-                        <hotspotY>1.043902397</hotspotY>
+                        <hotspotX>0.526315808</hotspotX>
+                        <hotspotY>0.502439022</hotspotY>
                         <angle>1.570796371</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1039,8 +1039,8 @@
                         <width>42</width>
                         <height>18</height>
                         <depth>0</depth>
-                        <hotspotX>0.636363626</hotspotX>
-                        <hotspotY>0.556097567</hotspotY>
+                        <hotspotX>0.526315808</hotspotX>
+                        <hotspotY>0.517073154</hotspotY>
                         <angle>1.570796371</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1064,8 +1064,8 @@
                         <width>42</width>
                         <height>18</height>
                         <depth>0</depth>
-                        <hotspotX>1.282296658</hotspotX>
-                        <hotspotY>1.043902397</hotspotY>
+                        <hotspotX>0.526315808</hotspotX>
+                        <hotspotY>0.502439022</hotspotY>
                         <angle>1.570796371</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1089,8 +1089,8 @@
                         <width>44.727081299</width>
                         <height>24.362365723</height>
                         <depth>0</depth>
-                        <hotspotX>0.636363626</hotspotX>
-                        <hotspotY>0.556097567</hotspotY>
+                        <hotspotX>0.526315808</hotspotX>
+                        <hotspotY>0.517073154</hotspotY>
                         <angle>1.570796371</angle>
                         <opacity>1</opacity>
                     </world>

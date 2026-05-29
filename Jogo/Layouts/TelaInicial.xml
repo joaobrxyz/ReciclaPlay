@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Tela Inicial</name>
+    <name>TelaInicial</name>
     <sid>747112952213552</sid>
-    <event-sheet></event-sheet>
+    <event-sheet>EvtTelaInicial</event-sheet>
     <size>
         <width>1080</width>
         <height>500</height>
@@ -37,11 +37,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>0.768798828</x>
+                        <x>0</x>
                         <y>0</y>
                         <z>0</z>
-                        <width>1079</width>
-                        <height>499</height>
+                        <width>1080</width>
+                        <height>500</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -68,52 +68,48 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="btPlay" uid="40">
+                <instance type="sptBtJogar" uid="40">
                     <properties>
-                        <type>Button</type>
-                        <text>Jogar</text>
-                        <tooltip></tooltip>
                         <initial-visibility>Visible</initial-visibility>
-                        <enabled>Yes</enabled>
-                        <auto-font-size>No</auto-font-size>
-                        <id-optional></id-optional>
-                        <checked>No</checked>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>428</x>
-                        <y>252</y>
+                        <x>507</x>
+                        <y>258</y>
                         <z>0</z>
-                        <width>185.928405762</width>
-                        <height>43.323123932</height>
+                        <width>211</width>
+                        <height>58</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BtTutorial" uid="41">
+                <instance type="sptBtCreditos" uid="41">
                     <properties>
-                        <type>Button</type>
-                        <text>Creditos</text>
-                        <tooltip></tooltip>
                         <initial-visibility>Visible</initial-visibility>
-                        <enabled>Yes</enabled>
-                        <auto-font-size>Yes</auto-font-size>
-                        <id-optional></id-optional>
-                        <checked>No</checked>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>445</x>
-                        <y>334</y>
+                        <x>515.5</x>
+                        <y>332</y>
                         <z>0</z>
-                        <width>153.831069946</width>
-                        <height>31.671104431</height>
+                        <width>181</width>
+                        <height>48</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>

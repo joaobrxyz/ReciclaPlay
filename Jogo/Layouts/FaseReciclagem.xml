@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>FaseDoLixo</name>
+    <name>FaseReciclagem</name>
     <sid>726181031521256</sid>
-    <event-sheet>EvtFaseDoLixo</event-sheet>
+    <event-sheet>EvtFaseReciclagem</event-sheet>
     <size>
         <width>1080</width>
         <height>500</height>
