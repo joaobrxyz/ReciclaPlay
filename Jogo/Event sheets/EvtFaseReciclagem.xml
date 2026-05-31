@@ -593,5 +593,59 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="619451762503009">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="890792711672521" type="System">
+                    <param id="0" name="First value">sptMetal.contagem</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">2</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="217009510846968" type="System">
+                    <param id="0" name="First value">sptPapel.contagem</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">2</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="702951048507344" type="System">
+                    <param id="0" name="First value">sptPlastico.contagem</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">2</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="543574911854428" type="System">
+                    <param id="0" name="First value">sptVidro.contagem</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">2</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="858865936491694" type="System">
+                    <param id="0" name="First value">sptOrganico.contagem</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">2</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="397048740427074" type="System">
+                    <param id="0" name="First value">sptNaoReciclavel.contagem</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="887452456060486" type="System">
+                    <param id="0" name="Object to create">sptAvancarFaseF02</param>
+                    <param id="1" name="Layer">2</param>
+                    <param id="2" name="X">948</param>
+                    <param id="3" name="Y">28</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="895152878784118">
+            <conditions>
+                <condition id="3" name="On touched object" sid="369989027735675" type="btAvancar">
+                    <param id="0" name="Object">sptAvancarFaseF02</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="924756016651301" type="System">
+                    <param id="0" name="Layout">GameOverF02</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
