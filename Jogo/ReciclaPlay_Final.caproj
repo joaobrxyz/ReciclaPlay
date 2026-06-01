@@ -828,6 +828,14 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="sptTutorial" sid="207611196179083">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="370268639227630" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500564" original-source="C:\Users\aikaf\Downloads\ChatGPT Image 1_06_2026, 16_39_49.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
