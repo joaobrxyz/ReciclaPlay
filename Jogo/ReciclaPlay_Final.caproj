@@ -10,6 +10,7 @@
     <unique-id>2qo1bb0z6kjf1</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
@@ -419,7 +420,7 @@
         </object-type>
         <object-type name="tlbTelaInicial" sid="786038474333935">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\tela-inicial.png" />
+            <texture original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\tela-inicial.png" />
         </object-type>
         <object-type name="btPlay" sid="320117864817298">
             <plugin id="Button" />
@@ -723,7 +724,7 @@
         <object-type name="sptBtFase" sid="889001649928970">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301910289451096" speed="0">
+                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301910289451096" speed="0">
                     <frame duration="1" hotspotX="0.509317" hotspotY="0.519553" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\btFase01.png">
                         <collision-poly>
                             <point x="0.509317" y="0.0167598" />
@@ -740,12 +741,28 @@
                             <point x="0" y="0.561591" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.659483" hotspotY="0.632959" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\btFase03.png">
+                    <frame duration="1" hotspotX="0.508621" hotspotY="0.602996" original-source="C:\Users\usrlab20ng\Documents\GitHub\ReciclaPlay\assets\btFase03.png">
                         <collision-poly>
                             <point x="0.654358" y="0" />
                             <point x="1" y="0.628448" />
                             <point x="0.654358" y="1" />
                             <point x="0" y="0.628448" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.490683" hotspotY="0.563536" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\btFase02blocked.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="0.766145" />
+                            <point x="1" y="1" />
+                            <point x="0" y="0.766145" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.508621" hotspotY="0.569288" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\btFase03blocked.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -836,6 +853,36 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="sptBtTutorial" sid="429426118730594">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="702952243497827" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptBtVoltarInicio" sid="734220692918427">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="873185301498887" speed="5">
+                    <frame duration="1" hotspotX="0.507353" hotspotY="0.625" original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\btVoltar.png">
+                        <collision-poly>
+                            <point x="0.136029" y="0.0625" />
+                            <point x="0.503676" y="0.359375" />
+                            <point x="0.819853" y="0.296875" />
+                            <point x="0.926471" y="0.609375" />
+                            <point x="0.819853" y="0.9375" />
+                            <point x="0.503676" y="0.90625" />
+                            <point x="0.253676" y="0.671875" />
+                            <point x="0.00735294" y="0.609375" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="audio" sid="286591829013351">
+            <plugin id="Audio" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -864,9 +911,39 @@
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
+        <global-instance type="audio" uid="117">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
-    <sounds-folder />
-    <music-folder />
+    <sounds-folder>
+        <file name="bubble-popping.m4a" />
+        <file name="bubble-popping.ogg" />
+        <file name="correct.m4a" />
+        <file name="correct.ogg" />
+        <file name="game-over.m4a" />
+        <file name="game-over.ogg" />
+        <file name="wrong.m4a" />
+        <file name="wrong.ogg" />
+        <file name="kill_bug.m4a" />
+        <file name="kill_bug.ogg" />
+        <file name="fish_death.m4a" />
+        <file name="fish_death.ogg" />
+    </sounds-folder>
+    <music-folder>
+        <file name="trilha-sonora.m4a" />
+        <file name="trilha-sonora.ogg" />
+    </music-folder>
     <files-folder>
         <file-folder name="Icons">
             <file name="icon-16.png" />

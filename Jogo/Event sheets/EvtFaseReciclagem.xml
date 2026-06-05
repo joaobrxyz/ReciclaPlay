@@ -77,6 +77,12 @@
                 <action behavior="Physics" id="27" name="Set enabled" sid="967428072466446" type="sptLixo">
                     <param id="0" name="Mode">0</param>
                 </action>
+                <action id="0" name="Play" sid="569047230515482" type="audio">
+                    <param id="0" name="Audio file">bubble-popping</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="178498367128544">
@@ -134,6 +140,12 @@
                                 <action id="5" name="Set frame" sid="994209147179331" type="sptFeedbackF02">
                                     <param id="0" name="Frame number">1</param>
                                 </action>
+                                <action id="0" name="Play" sid="406417240591669" type="audio">
+                                    <param id="0" name="Audio file">correct</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="530261465551664">
@@ -154,6 +166,12 @@
                                 </action>
                                 <action id="5" name="Set frame" sid="342742782566127" type="sptFeedbackF02">
                                     <param id="0" name="Frame number">2</param>
+                                </action>
+                                <action id="0" name="Play" sid="614517345688966" type="audio">
+                                    <param id="0" name="Audio file">wrong</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -206,6 +224,12 @@
                                 <action id="5" name="Set frame" sid="497511731434114" type="sptFeedbackF02">
                                     <param id="0" name="Frame number">1</param>
                                 </action>
+                                <action id="0" name="Play" sid="491220687870956" type="audio">
+                                    <param id="0" name="Audio file">correct</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="911375753387592">
@@ -226,6 +250,12 @@
                                 </action>
                                 <action id="5" name="Set frame" sid="898565407306870" type="sptFeedbackF02">
                                     <param id="0" name="Frame number">2</param>
+                                </action>
+                                <action id="0" name="Play" sid="673491616697755" type="audio">
+                                    <param id="0" name="Audio file">wrong</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -278,6 +308,12 @@
                                 <action id="5" name="Set frame" sid="513761528242444" type="sptFeedbackF02">
                                     <param id="0" name="Frame number">1</param>
                                 </action>
+                                <action id="0" name="Play" sid="634886006929513" type="audio">
+                                    <param id="0" name="Audio file">correct</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="730555370704303">
@@ -298,6 +334,12 @@
                                 </action>
                                 <action id="5" name="Set frame" sid="937216952708734" type="sptFeedbackF02">
                                     <param id="0" name="Frame number">2</param>
+                                </action>
+                                <action id="0" name="Play" sid="455069481750544" type="audio">
+                                    <param id="0" name="Audio file">wrong</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -350,6 +392,12 @@
                                 <action id="5" name="Set frame" sid="501815620550055" type="sptFeedbackF02">
                                     <param id="0" name="Frame number">1</param>
                                 </action>
+                                <action id="0" name="Play" sid="526706012971500" type="audio">
+                                    <param id="0" name="Audio file">correct</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="293419340831307">
@@ -370,6 +418,12 @@
                                 </action>
                                 <action id="5" name="Set frame" sid="327064523989550" type="sptFeedbackF02">
                                     <param id="0" name="Frame number">2</param>
+                                </action>
+                                <action id="0" name="Play" sid="205276320605588" type="audio">
+                                    <param id="0" name="Audio file">wrong</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -422,6 +476,12 @@
                                 <action id="5" name="Set frame" sid="614061960922452" type="sptFeedbackF02">
                                     <param id="0" name="Frame number">1</param>
                                 </action>
+                                <action id="0" name="Play" sid="485967161188524" type="audio">
+                                    <param id="0" name="Audio file">correct</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="586206611150419">
@@ -442,6 +502,12 @@
                                 </action>
                                 <action id="5" name="Set frame" sid="472048856068278" type="sptFeedbackF02">
                                     <param id="0" name="Frame number">2</param>
+                                </action>
+                                <action id="0" name="Play" sid="233510439901344" type="audio">
+                                    <param id="0" name="Audio file">wrong</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -494,6 +560,12 @@
                                 <action id="5" name="Set frame" sid="601845576396781" type="sptFeedbackF02">
                                     <param id="0" name="Frame number">1</param>
                                 </action>
+                                <action id="0" name="Play" sid="849378407014732" type="audio">
+                                    <param id="0" name="Audio file">correct</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="535445684971297">
@@ -514,6 +586,12 @@
                                 </action>
                                 <action id="5" name="Set frame" sid="189968187522051" type="sptFeedbackF02">
                                     <param id="0" name="Frame number">2</param>
+                                </action>
+                                <action id="0" name="Play" sid="708523456037995" type="audio">
+                                    <param id="0" name="Audio file">wrong</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -632,6 +710,10 @@
                     <param id="1" name="Layer">2</param>
                     <param id="2" name="X">948</param>
                     <param id="3" name="Y">28</param>
+                </action>
+                <action id="-10" name="Add to" sid="402109103957249" type="System">
+                    <param id="0" name="Variable">FasesConcluida</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>

@@ -47,6 +47,12 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="311217853269690" type="sptPeixeAma" />
+                <action id="0" name="Play" sid="643788089025018" type="audio">
+                    <param id="0" name="Audio file">fish_death</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="683817398749355">
@@ -57,6 +63,12 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="189007205983150" type="sptPeixeVer" />
+                <action id="0" name="Play" sid="452100600005096" type="audio">
+                    <param id="0" name="Audio file">fish_death</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <comment>adicionar a tela de game over em &quot;action&quot;</comment>
@@ -74,11 +86,17 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="825367813657862" type="System">
-                    <param id="0" name="Layout">GameOverF02</param>
+                <action id="0" name="Play" sid="792364334249532" type="audio">
+                    <param id="0" name="Audio file">game-over</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
-                <action id="-2" name="Go to layout" sid="600918242616749" type="System">
-                    <param id="0" name="Layout">GameOverF02</param>
+                <action id="-16" name="Wait" sid="816792380662609" type="System">
+                    <param id="0" name="Seconds">5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="825367813657862" type="System">
+                    <param id="0" name="Layout">Fases</param>
                 </action>
             </actions>
         </event-block>
@@ -169,6 +187,12 @@
                     <param id="0" name="Pin to">sptAnzol</param>
                     <param id="1" name="Mode">1</param>
                 </action>
+                <action id="0" name="Play" sid="842377296514102" type="audio">
+                    <param id="0" name="Audio file">bubble-popping</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="998426514117359">
@@ -223,6 +247,12 @@
                     <param id="0" name="Variable">LixoColetado</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="0" name="Play" sid="365164049004446" type="audio">
+                    <param id="0" name="Audio file">correct</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="261692199503728">
@@ -258,6 +288,25 @@
             <actions>
                 <action id="8" name="Set flipped" sid="805650301864254" type="sptPeixeAma">
                     <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="301830314336493">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="681770161754345" type="System" />
+                <condition id="-8" name="Compare two values" sid="692223817608678" type="System">
+                    <param id="0" name="First value">sptLixo2.Count</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="744014636310195" type="System">
+                    <param id="0" name="Variable">FasesConcluida</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="637859070606060" type="System">
+                    <param id="0" name="Layout">Fases</param>
                 </action>
             </actions>
         </event-block>

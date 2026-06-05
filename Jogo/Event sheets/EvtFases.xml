@@ -3,6 +3,43 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EvtFases</name>
     <events>
+        <variable constant="0" name="FasesConcluida" sid="895521702444550" static="0" type="number">0</variable>
+        <event-block sid="463789454388205">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="894360815429851" type="System">
+                    <param id="0" name="Variable">FasesConcluida</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="505795371237749" type="sptBtFase">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="895790081445973" type="sptBtFase">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="909391263399987">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="699766393476416" type="System">
+                    <param id="0" name="Variable">FasesConcluida</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="159941227947507" type="sptBtFase">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="334673825136338" type="sptBtFase">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="279258241209426">
             <conditions>
                 <condition id="3" name="On touched object" sid="745344829193019" type="btAvancar">
@@ -48,6 +85,18 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="904095045319915" type="System">
                     <param id="0" name="Layout">FaseOceano</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="386880065007254">
+            <conditions>
+                <condition id="3" name="On touched object" sid="328315497255914" type="btAvancar">
+                    <param id="0" name="Object">sptBtVoltarInicio</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="756906265223055" type="System">
+                    <param id="0" name="Layout">TelaInicial</param>
                 </action>
             </actions>
         </event-block>

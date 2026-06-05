@@ -23,8 +23,29 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="-9" name="Set value" sid="225523931217290" type="System">
+                    <param id="0" name="Variable">varTempo</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="258137042845924" type="System">
+                    <param id="0" name="Variable">varPontosF02</param>
+                    <param id="1" name="Value">0</param>
+                </action>
                 <action id="-2" name="Go to layout" sid="635679754971968" type="System">
                     <param id="0" name="Layout">Fases</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="156957227767935">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="899371711903573" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="289941144771857" type="audio">
+                    <param id="0" name="Audio file">game-over</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

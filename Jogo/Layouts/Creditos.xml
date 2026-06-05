@@ -2,7 +2,7 @@
 <c2layout>
     <name>Creditos</name>
     <sid>339601356104532</sid>
-    <event-sheet></event-sheet>
+    <event-sheet>EvtTutorialF01</event-sheet>
     <size>
         <width>1080</width>
         <height>500</height>
@@ -145,6 +145,28 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sptBtVoltarInicio" uid="115">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>932.427612305</x>
+                        <y>50</y>
+                        <z>0</z>
+                        <width>235</width>
+                        <height>57</height>
+                        <depth>0</depth>
+                        <hotspotX>0.507352948</hotspotX>
+                        <hotspotY>0.625</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

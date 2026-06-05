@@ -103,7 +103,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>275</x>
-                        <y>312</y>
+                        <y>313</y>
                         <z>0</z>
                         <width>130.395996094</width>
                         <height>146.593994141</height>
@@ -118,7 +118,7 @@
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
-                        <initial-frame>1</initial-frame>
+                        <initial-frame>3</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
@@ -130,7 +130,7 @@
                         <width>130.395706177</width>
                         <height>146.593933105</height>
                         <depth>0</depth>
-                        <hotspotX>0.534161508</hotspotX>
+                        <hotspotX>0.490683228</hotspotX>
                         <hotspotY>0.563535929</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -140,20 +140,42 @@
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
-                        <initial-frame>2</initial-frame>
+                        <initial-frame>4</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>827</x>
+                        <x>818</x>
                         <y>321</y>
                         <z>0</z>
                         <width>130.395996094</width>
                         <height>146.593994141</height>
                         <depth>0</depth>
-                        <hotspotX>0.659482777</hotspotX>
-                        <hotspotY>0.632958829</hotspotY>
+                        <hotspotX>0.508620679</hotspotX>
+                        <hotspotY>0.569288373</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sptBtVoltarInicio" uid="116">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>962</x>
+                        <y>36.5</y>
+                        <z>0</z>
+                        <width>235</width>
+                        <height>53</height>
+                        <depth>0</depth>
+                        <hotspotX>0.507352948</hotspotX>
+                        <hotspotY>0.625</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

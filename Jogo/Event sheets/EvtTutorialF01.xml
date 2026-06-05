@@ -2,5 +2,18 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EvtTutorialF01</name>
-    <events />
+    <events>
+        <event-block sid="710924501301977">
+            <conditions>
+                <condition id="3" name="On touched object" sid="736995716779742" type="btAvancar">
+                    <param id="0" name="Object">sptBtVoltarInicio</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="782330435634774" type="System">
+                    <param id="0" name="Layout">TelaInicial</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
