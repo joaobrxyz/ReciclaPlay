@@ -883,6 +883,9 @@
         <object-type name="audio" sid="286591829013351">
             <plugin id="Audio" />
         </object-type>
+        <object-type name="txtInsetos" sid="828105292199014">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

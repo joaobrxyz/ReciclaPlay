@@ -74,5 +74,18 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="858686362183703">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="434685736633369" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="623539564146988" type="txtPlacar">
+                    <param id="0" name="Text">&quot;Lixos coletados: &quot; &amp; (10 - sptLixo.Count) &amp; &quot; de 10&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="888879427867778" type="txtInsetos">
+                    <param id="0" name="Text">&quot;Baratas mortas: &quot; &amp; (6 - sptBarata.Count) &amp; &quot; de 6&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
