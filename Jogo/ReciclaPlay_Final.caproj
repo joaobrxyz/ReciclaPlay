@@ -886,6 +886,26 @@
         <object-type name="txtInsetos" sid="828105292199014">
             <plugin id="Text" />
         </object-type>
+        <object-type name="tldTelaVitoria" sid="416657838567005">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\joaom\Documents\Estudos\ReciclaPlay\assets\telaVitoria.png" />
+        </object-type>
+        <object-type name="sptBtJogarNovamente" sid="114792811759775">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="316053214578315" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sptBtMenu" sid="305597596946256">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="661776985973391" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -897,6 +917,7 @@
         <layout>FaseQuarto.xml</layout>
         <layout>GameOverF02.xml</layout>
         <layout>Fases.xml</layout>
+        <layout>TelaVitoria.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>EvtFaseReciclagem.xml</event-sheet>
@@ -906,6 +927,7 @@
         <event-sheet>EvtGameOverF02.xml</event-sheet>
         <event-sheet>EvtFases.xml</event-sheet>
         <event-sheet>EvtTelaInicial.xml</event-sheet>
+        <event-sheet>EvtTelaVitoria.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="62" />

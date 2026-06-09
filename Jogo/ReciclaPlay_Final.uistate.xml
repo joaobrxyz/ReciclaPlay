@@ -69,5 +69,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/sptTutorial/" />
         <folder expanded="1" path="animation-folder/sptBtTutorial/" />
         <folder expanded="1" path="animation-folder/sptBtVoltarInicio/" />
+        <folder expanded="1" path="animation-folder/sptBtJogarNovamente/" />
+        <folder expanded="1" path="animation-folder/sptBtMenu/" />
     </folders-expanded>
 </c2uistate>

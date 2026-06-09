@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EvtTelaVitoria</name>
+    <events>
+        <event-block sid="934681664233001">
+            <conditions>
+                <condition id="3" name="On touched object" sid="289322670957777" type="btAvancar">
+                    <param id="0" name="Object">sptBtJogarNovamente</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="533483480922617" type="System">
+                    <param id="0" name="Layout">Fases</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="976191417139093">
+            <conditions>
+                <condition id="3" name="On touched object" sid="431708394519327" type="btAvancar">
+                    <param id="0" name="Object">sptBtMenu</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="239743986765297" type="System">
+                    <param id="0" name="Layout">TelaInicial</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
